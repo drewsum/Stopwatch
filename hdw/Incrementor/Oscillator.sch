@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 12 12
+Sheet 20 20
 Title ""
 Date ""
 Rev ""
@@ -159,7 +159,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 4780 1650 4740
 Text GLabel 2300 3510 2    50   Output ~ 0
-32768_Clock
+32768Hz_Clock
 $Comp
 L Custom_Library:C_Custom C?
 U 1 1 5D6EC6FD
@@ -260,19 +260,19 @@ Wire Wire Line
 Wire Wire Line
 	5060 4810 5060 4770
 Text GLabel 5810 3710 2    50   Output ~ 0
-256_Clock
+256Hz_Clock
 Text GLabel 5810 3610 2    50   Output ~ 0
-512_Clock
+512Hz_Clock
 Text GLabel 5810 3510 2    50   Output ~ 0
-1024_Clock
+1024Hz_Clock
 Text GLabel 5810 3410 2    50   Output ~ 0
-2048_Clock
+2048Hz_Clock
 Text GLabel 5810 3310 2    50   Output ~ 0
-4096_Clock
+4096Hz_Clock
 Text GLabel 5810 3210 2    50   Output ~ 0
-8192_Clock
+8192Hz_Clock
 Text GLabel 5810 3110 2    50   Output ~ 0
-16384_Clock
+16384Hz_Clock
 Connection ~ 4530 3510
 Wire Wire Line
 	4530 3510 3790 3510
@@ -280,7 +280,7 @@ Connection ~ 3870 3310
 Wire Wire Line
 	3790 3310 3870 3310
 Text GLabel 3790 3310 0    50   Input ~ 0
-32768_Clock
+32768Hz_Clock
 Text GLabel 3790 3510 0    50   Input ~ 0
 Count_Reset
 Wire Wire Line
@@ -496,23 +496,23 @@ Wire Wire Line
 Wire Wire Line
 	7220 3160 7220 3640
 Text GLabel 7140 3160 0    50   Input ~ 0
-256_Clock
+256Hz_Clock
 Text GLabel 9360 3160 2    50   Output ~ 0
-128_Clock
+128Hz_Clock
 Text GLabel 9360 3260 2    50   Output ~ 0
-64_Clock
+64Hz_Clock
 Text GLabel 9360 3360 2    50   Output ~ 0
-32_Clock
+32Hz_Clock
 Text GLabel 9360 3460 2    50   Output ~ 0
-16_Clock
+16Hz_Clock
 Text GLabel 9360 3560 2    50   Output ~ 0
-8_Clock
+8Hz_Clock
 Text GLabel 9360 3660 2    50   Output ~ 0
-4_Clock
+4Hz_Clock
 Text GLabel 9360 3760 2    50   Output ~ 0
-2_Clock
+2Hz_Clock
 Text GLabel 9360 3860 2    50   Output ~ 0
-1_Clock
+1Hz_Clock
 NoConn ~ 9360 3960
 NoConn ~ 9360 4060
 NoConn ~ 9360 4160
