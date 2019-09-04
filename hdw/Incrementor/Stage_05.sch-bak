@@ -5,10 +5,10 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 6 20
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Incrementor"
+Date "2019-09-03"
+Rev "A"
+Comp "Drew Maatman"
 Comment1 ""
 Comment2 ""
 Comment3 ""
