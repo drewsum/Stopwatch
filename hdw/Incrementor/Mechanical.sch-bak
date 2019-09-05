@@ -2,9 +2,9 @@ EESchema Schematic File Version 4
 LIBS:Incrementor-cache
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
-Sheet 1 20
+Sheet 19 20
 Title "Incrementor"
 Date "2019-09-03"
 Rev "A"
