@@ -379,7 +379,7 @@ F 3 "" H 2310 3840 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0707
+L power:+3.3V #PWR0707
 U 1 1 5D712568
 P 4290 1530
 F 0 "#PWR0707" H 4290 1380 50  0001 C CNN
@@ -390,7 +390,7 @@ F 3 "" H 4290 1530 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0701
+L power:+3.3V #PWR0701
 U 1 1 5D712D94
 P 4160 2650
 F 0 "#PWR0701" H 4160 2500 50  0001 C CNN
@@ -401,7 +401,7 @@ F 3 "" H 4160 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0709
+L power:+3.3V #PWR0709
 U 1 1 5D713314
 P 4290 3640
 F 0 "#PWR0709" H 4290 3490 50  0001 C CNN
@@ -412,7 +412,7 @@ F 3 "" H 4290 3640 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0703
+L power:+3.3V #PWR0703
 U 1 1 5D713AE8
 P 4160 4760
 F 0 "#PWR0703" H 4160 4610 50  0001 C CNN
@@ -611,7 +611,7 @@ F 3 "" H 2310 5950 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0711
+L power:+3.3V #PWR0711
 U 1 1 5D719E05
 P 4290 5750
 F 0 "#PWR0711" H 4290 5600 50  0001 C CNN
@@ -622,7 +622,7 @@ F 3 "" H 4290 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0705
+L power:+3.3V #PWR0705
 U 1 1 5D719E0F
 P 4160 6870
 F 0 "#PWR0705" H 4160 6720 50  0001 C CNN
@@ -633,7 +633,7 @@ F 3 "" H 4160 6870 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0715
+L power:+3.3V #PWR0715
 U 1 1 5D73199B
 P 4690 5950
 F 0 "#PWR0715" H 4690 5800 50  0001 C CNN
@@ -644,7 +644,7 @@ F 3 "" H 4690 5950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0714
+L power:+3.3V #PWR0714
 U 1 1 5D731FBB
 P 4690 3840
 F 0 "#PWR0714" H 4690 3690 50  0001 C CNN
@@ -655,7 +655,7 @@ F 3 "" H 4690 3840 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0713
+L power:+3.3V #PWR0713
 U 1 1 5D732837
 P 4690 1730
 F 0 "#PWR0713" H 4690 1580 50  0001 C CNN
@@ -691,7 +691,7 @@ F 3 "" H 5900 1980 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0717
+L power:+3.3V #PWR0717
 U 1 1 5D741A4F
 P 5900 1680
 F 0 "#PWR0717" H 5900 1530 50  0001 C CNN
@@ -732,7 +732,7 @@ F 3 "" H 6040 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0719
+L power:+3.3V #PWR0719
 U 1 1 5D7436CE
 P 6040 2400
 F 0 "#PWR0719" H 6040 2250 50  0001 C CNN

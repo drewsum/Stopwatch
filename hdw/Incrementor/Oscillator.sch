@@ -49,7 +49,7 @@ F 3 "" H 2000 3810 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0401
+L power:+3.3V #PWR0401
 U 1 1 5D6C28EF
 P 2000 3130
 F 0 "#PWR0401" H 2000 2980 50  0001 C CNN
@@ -111,7 +111,7 @@ F 7 "1276-1018-1-ND" H 2775 5090 60  0001 C CNN "Digi-Key PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0403
+L power:+3.3V #PWR0403
 U 1 1 5D6CCD89
 P 2000 4360
 F 0 "#PWR0403" H 2000 4210 50  0001 C CNN
@@ -212,7 +212,7 @@ F 7 "1276-1018-1-ND" H 6185 5120 60  0001 C CNN "Digi-Key PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0409
+L power:+3.3V #PWR0409
 U 1 1 5D6EC717
 P 5410 4390
 F 0 "#PWR0409" H 5410 4240 50  0001 C CNN
@@ -261,18 +261,6 @@ Wire Wire Line
 	5060 4810 5060 4770
 Text GLabel 5810 3710 2    50   Output ~ 0
 256Hz_Clock
-Text GLabel 5810 3610 2    50   Output ~ 0
-512Hz_Clock
-Text GLabel 5810 3510 2    50   Output ~ 0
-1024Hz_Clock
-Text GLabel 5810 3410 2    50   Output ~ 0
-2048Hz_Clock
-Text GLabel 5810 3310 2    50   Output ~ 0
-4096Hz_Clock
-Text GLabel 5810 3210 2    50   Output ~ 0
-8192Hz_Clock
-Text GLabel 5810 3110 2    50   Output ~ 0
-16384Hz_Clock
 Connection ~ 4530 3510
 Wire Wire Line
 	4530 3510 3790 3510
@@ -363,7 +351,7 @@ F 3 "" H 5410 3910 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0407
+L power:+3.3V #PWR0407
 U 1 1 5D6D3B37
 P 5410 2910
 F 0 "#PWR0407" H 5410 2760 50  0001 C CNN
@@ -409,7 +397,7 @@ F 3 "" H 8860 4560 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0413
+L power:+3.3V #PWR0413
 U 1 1 5D7092A9
 P 8860 2860
 F 0 "#PWR0413" H 8860 2710 50  0001 C CNN
@@ -497,20 +485,10 @@ Wire Wire Line
 	7220 3160 7220 3640
 Text GLabel 7140 3160 0    50   Input ~ 0
 256Hz_Clock
-Text GLabel 9360 3160 2    50   Output ~ 0
-128Hz_Clock
-Text GLabel 9360 3260 2    50   Output ~ 0
-64Hz_Clock
-Text GLabel 9360 3360 2    50   Output ~ 0
-32Hz_Clock
 Text GLabel 9360 3460 2    50   Output ~ 0
 16Hz_Clock
-Text GLabel 9360 3560 2    50   Output ~ 0
-8Hz_Clock
 Text GLabel 9360 3660 2    50   Output ~ 0
 4Hz_Clock
-Text GLabel 9360 3760 2    50   Output ~ 0
-2Hz_Clock
 Text GLabel 9360 3860 2    50   Output ~ 0
 1Hz_Clock
 NoConn ~ 9360 3960
@@ -569,7 +547,7 @@ F 7 "1276-1018-1-ND" H 9635 5760 60  0001 C CNN "Digi-Key PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0415
+L power:+3.3V #PWR0415
 U 1 1 5D71424F
 P 8860 5030
 F 0 "#PWR0415" H 8860 4880 50  0001 C CNN
@@ -616,4 +594,15 @@ Wire Wire Line
 	8860 5450 8510 5450
 Wire Wire Line
 	8510 5450 8510 5410
+NoConn ~ 5810 3110
+NoConn ~ 5810 3210
+NoConn ~ 5810 3310
+NoConn ~ 5810 3410
+NoConn ~ 5810 3510
+NoConn ~ 5810 3610
+NoConn ~ 9360 3160
+NoConn ~ 9360 3260
+NoConn ~ 9360 3360
+NoConn ~ 9360 3560
+NoConn ~ 9360 3760
 $EndSCHEMATC

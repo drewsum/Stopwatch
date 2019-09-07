@@ -30,7 +30,7 @@ F 5 "296-32878-5-ND" H 4760 2790 50  0001 C CNN "Digi-Key PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR?
+L power:+3.3V #PWR?
 U 1 1 5D7204D8
 P 4680 2710
 AR Path="/5D6B2673/5D7204D8" Ref="#PWR?"  Part="1" 
@@ -299,7 +299,7 @@ F 3 "" H 5670 5230 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR?
+L power:+3.3V #PWR?
 U 1 1 5D720563
 P 5670 4930
 AR Path="/5D6B2673/5D720563" Ref="#PWR?"  Part="1" 

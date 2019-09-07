@@ -52,7 +52,7 @@ F 3 "" H 2590 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0609
+L power:+3.3V #PWR0609
 U 1 1 5D73D4E7
 P 2590 1950
 F 0 "#PWR0609" H 2590 1800 50  0001 C CNN
@@ -135,7 +135,7 @@ $EndComp
 Wire Wire Line
 	3120 1510 3120 1610
 $Comp
-L Custom_Library:+3.3V #PWR0615
+L power:+3.3V #PWR0615
 U 1 1 5D7411AB
 P 3120 1210
 F 0 "#PWR0615" H 3120 1060 50  0001 C CNN
@@ -169,7 +169,7 @@ F 3 "" H 5340 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0627
+L power:+3.3V #PWR0627
 U 1 1 5D742102
 P 5340 1950
 F 0 "#PWR0627" H 5340 1800 50  0001 C CNN
@@ -252,7 +252,7 @@ $EndComp
 Wire Wire Line
 	5870 1510 5870 1610
 $Comp
-L Custom_Library:+3.3V #PWR0633
+L power:+3.3V #PWR0633
 U 1 1 5D742143
 P 5870 1210
 F 0 "#PWR0633" H 5870 1060 50  0001 C CNN
@@ -286,7 +286,7 @@ F 3 "" H 8090 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0644
+L power:+3.3V #PWR0644
 U 1 1 5D7519A5
 P 8090 1950
 F 0 "#PWR0644" H 8090 1800 50  0001 C CNN
@@ -369,7 +369,7 @@ $EndComp
 Wire Wire Line
 	8620 1510 8620 1610
 $Comp
-L Custom_Library:+3.3V #PWR0650
+L power:+3.3V #PWR0650
 U 1 1 5D7519E6
 P 8620 1210
 F 0 "#PWR0650" H 8620 1060 50  0001 C CNN
@@ -403,7 +403,7 @@ F 3 "" H 5340 6230 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0631
+L power:+3.3V #PWR0631
 U 1 1 5D75BF77
 P 5340 6030
 F 0 "#PWR0631" H 5340 5880 50  0001 C CNN
@@ -486,7 +486,7 @@ $EndComp
 Wire Wire Line
 	5870 5590 5870 5690
 $Comp
-L Custom_Library:+3.3V #PWR0635
+L power:+3.3V #PWR0635
 U 1 1 5D75BFB8
 P 5870 5290
 F 0 "#PWR0635" H 5870 5140 50  0001 C CNN
@@ -522,7 +522,7 @@ F 3 "" H 2590 4190 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0611
+L power:+3.3V #PWR0611
 U 1 1 5D76D7A3
 P 2590 3990
 F 0 "#PWR0611" H 2590 3840 50  0001 C CNN
@@ -605,7 +605,7 @@ $EndComp
 Wire Wire Line
 	3120 3550 3120 3650
 $Comp
-L Custom_Library:+3.3V #PWR0616
+L power:+3.3V #PWR0616
 U 1 1 5D76D7E4
 P 3120 3250
 F 0 "#PWR0616" H 3120 3100 50  0001 C CNN
@@ -639,7 +639,7 @@ F 3 "" H 5340 4190 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0629
+L power:+3.3V #PWR0629
 U 1 1 5D76D803
 P 5340 3990
 F 0 "#PWR0629" H 5340 3840 50  0001 C CNN
@@ -722,7 +722,7 @@ $EndComp
 Wire Wire Line
 	5870 3550 5870 3650
 $Comp
-L Custom_Library:+3.3V #PWR0634
+L power:+3.3V #PWR0634
 U 1 1 5D76D844
 P 5870 3250
 F 0 "#PWR0634" H 5870 3100 50  0001 C CNN
@@ -756,7 +756,7 @@ F 3 "" H 8090 4190 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0646
+L power:+3.3V #PWR0646
 U 1 1 5D76D863
 P 8090 3990
 F 0 "#PWR0646" H 8090 3840 50  0001 C CNN
@@ -839,7 +839,7 @@ $EndComp
 Wire Wire Line
 	8620 3550 8620 3650
 $Comp
-L Custom_Library:+3.3V #PWR0651
+L power:+3.3V #PWR0651
 U 1 1 5D756304
 P 8620 3250
 F 0 "#PWR0651" H 8620 3100 50  0001 C CNN
@@ -873,7 +873,7 @@ F 3 "" H 8090 6230 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0648
+L power:+3.3V #PWR0648
 U 1 1 5D76D8C3
 P 8090 6030
 F 0 "#PWR0648" H 8090 5880 50  0001 C CNN
@@ -920,7 +920,7 @@ $EndComp
 Wire Wire Line
 	8620 5590 8620 5690
 $Comp
-L Custom_Library:+3.3V #PWR0652
+L power:+3.3V #PWR0652
 U 1 1 5D76D904
 P 8620 5290
 F 0 "#PWR0652" H 8620 5140 50  0001 C CNN
@@ -961,7 +961,7 @@ F 3 "" H 2160 1730 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0601
+L power:+3.3V #PWR0601
 U 1 1 5D78E199
 P 2160 1430
 F 0 "#PWR0601" H 2160 1280 50  0001 C CNN
@@ -1002,7 +1002,7 @@ F 3 "" H 4910 1730 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0618
+L power:+3.3V #PWR0618
 U 1 1 5D78FDC4
 P 4910 1430
 F 0 "#PWR0618" H 4910 1280 50  0001 C CNN
@@ -1043,7 +1043,7 @@ F 3 "" H 7660 1730 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0636
+L power:+3.3V #PWR0636
 U 1 1 5D7916E6
 P 7660 1430
 F 0 "#PWR0636" H 7660 1280 50  0001 C CNN
@@ -1084,7 +1084,7 @@ F 3 "" H 4910 5810 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0622
+L power:+3.3V #PWR0622
 U 1 1 5D79307F
 P 4910 5510
 F 0 "#PWR0622" H 4910 5360 50  0001 C CNN
@@ -1125,7 +1125,7 @@ F 3 "" H 2160 3730 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0603
+L power:+3.3V #PWR0603
 U 1 1 5D796871
 P 2160 3430
 F 0 "#PWR0603" H 2160 3280 50  0001 C CNN
@@ -1166,7 +1166,7 @@ F 3 "" H 4910 3730 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0620
+L power:+3.3V #PWR0620
 U 1 1 5D798346
 P 4910 3430
 F 0 "#PWR0620" H 4910 3280 50  0001 C CNN
@@ -1207,7 +1207,7 @@ F 3 "" H 7660 3730 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0638
+L power:+3.3V #PWR0638
 U 1 1 5D79A07D
 P 7660 3430
 F 0 "#PWR0638" H 7660 3280 50  0001 C CNN
@@ -1248,7 +1248,7 @@ F 3 "" H 7660 5770 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0640
+L power:+3.3V #PWR0640
 U 1 1 5D79BB3F
 P 7660 5470
 F 0 "#PWR0640" H 7660 5320 50  0001 C CNN
@@ -1286,7 +1286,7 @@ F 3 "" H 2590 6230 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0613
+L power:+3.3V #PWR0613
 U 1 1 5D6D44A7
 P 2590 6030
 F 0 "#PWR0613" H 2590 5880 50  0001 C CNN
@@ -1333,7 +1333,7 @@ $EndComp
 Wire Wire Line
 	3120 5590 3120 5690
 $Comp
-L Custom_Library:+3.3V #PWR0617
+L power:+3.3V #PWR0617
 U 1 1 5D6D44CC
 P 3120 5290
 F 0 "#PWR0617" H 3120 5140 50  0001 C CNN
@@ -1374,7 +1374,7 @@ F 3 "" H 2160 5770 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0605
+L power:+3.3V #PWR0605
 U 1 1 5D6D44EE
 P 2160 5470
 F 0 "#PWR0605" H 2160 5320 50  0001 C CNN
