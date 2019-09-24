@@ -77,7 +77,7 @@ Wire Wire Line
 Wire Wire Line
 	5320 3400 4910 3400
 $Comp
-L Custom_Library:+3.3V #PWR0803
+L power:+3.3V #PWR0803
 U 1 1 5D74A7A6
 P 5320 2990
 F 0 "#PWR0803" H 5320 2840 50  0001 C CNN
@@ -156,7 +156,7 @@ F 3 "" H 6550 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0805
+L power:+3.3V #PWR0805
 U 1 1 5D750A87
 P 6550 3300
 F 0 "#PWR0805" H 6550 3150 50  0001 C CNN
@@ -197,7 +197,7 @@ F 3 "" H 6710 4240 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR?
+L power:+3.3V #PWR?
 U 1 1 5D752E1E
 P 6710 3940
 AR Path="/5D6B2673/5D752E1E" Ref="#PWR?"  Part="1" 

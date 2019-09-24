@@ -49,7 +49,7 @@ F 3 "" H 2000 3810 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0401
+L power:+3.3V #PWR0401
 U 1 1 5D6C28EF
 P 2000 3130
 F 0 "#PWR0401" H 2000 2980 50  0001 C CNN
@@ -111,7 +111,7 @@ F 7 "1276-1018-1-ND" H 2775 5090 60  0001 C CNN "Digi-Key PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0403
+L power:+3.3V #PWR0403
 U 1 1 5D6CCD89
 P 2000 4360
 F 0 "#PWR0403" H 2000 4210 50  0001 C CNN
@@ -212,7 +212,7 @@ F 7 "1276-1018-1-ND" H 6185 5120 60  0001 C CNN "Digi-Key PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0409
+L power:+3.3V #PWR0409
 U 1 1 5D6EC717
 P 5410 4390
 F 0 "#PWR0409" H 5410 4240 50  0001 C CNN
@@ -351,7 +351,7 @@ F 3 "" H 5410 3910 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0407
+L power:+3.3V #PWR0407
 U 1 1 5D6D3B37
 P 5410 2910
 F 0 "#PWR0407" H 5410 2760 50  0001 C CNN
@@ -397,7 +397,7 @@ F 3 "" H 8860 4560 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0413
+L power:+3.3V #PWR0413
 U 1 1 5D7092A9
 P 8860 2860
 F 0 "#PWR0413" H 8860 2710 50  0001 C CNN
@@ -547,7 +547,7 @@ F 7 "1276-1018-1-ND" H 9635 5760 60  0001 C CNN "Digi-Key PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0415
+L power:+3.3V #PWR0415
 U 1 1 5D71424F
 P 8860 5030
 F 0 "#PWR0415" H 8860 4880 50  0001 C CNN

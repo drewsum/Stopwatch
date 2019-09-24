@@ -30,7 +30,7 @@ F 5 "296-32878-5-ND" H 4760 2790 50  0001 C CNN "Digi-Key PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR?
+L power:+3.3V #PWR?
 U 1 1 5D72E84E
 P 4680 2710
 AR Path="/5D6B2673/5D72E84E" Ref="#PWR?"  Part="1" 
@@ -67,17 +67,17 @@ NoConn ~ 6360 4340
 Text GLabel 6360 3690 2    50   Output ~ 0
 Stage05_Clock_Out
 $Comp
-L Device:R_Pack07 RN?
+L Device:R_Pack08 RN?
 U 1 1 5D72E860
-P 7310 3190
+P 7310 3290
 AR Path="/5D6B2673/5D72E860" Ref="RN?"  Part="1" 
 AR Path="/5D6C0D29/5D72E860" Ref="RN1301"  Part="1" 
-F 0 "RN1301" V 6793 3190 50  0000 C CNN
-F 1 "1k" V 6884 3190 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7785 3190 50  0001 C CNN
-F 3 "" H 7310 3190 50  0001 C CNN
-F 4 "RHM1.0KDCT-ND" H 7310 3190 50  0001 C CNN "Digi-Key PN"
-	1    7310 3190
+F 0 "RN1301" V 6670 3330 50  0000 C CNN
+F 1 "1k" V 6770 3330 50  0000 C CNN
+F 2 "Resistor_SMD:R_Cat16-8" V 7785 3290 50  0001 C CNN
+F 3 "" H 7310 3290 50  0001 C CNN
+F 4 "CAT16-102J8LFCT-ND" H 7310 3290 50  0001 C CNN "Digi-Key PN"
+	1    7310 3290
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -299,7 +299,7 @@ F 3 "" H 5670 5230 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR?
+L power:+3.3V #PWR?
 U 1 1 5D72E8D9
 P 5670 4930
 AR Path="/5D6B2673/5D72E8D9" Ref="#PWR?"  Part="1" 
@@ -312,4 +312,6 @@ F 3 "" H 5670 4930 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6360 4040
+NoConn ~ 7110 3590
+NoConn ~ 7510 3590
 $EndSCHEMATC

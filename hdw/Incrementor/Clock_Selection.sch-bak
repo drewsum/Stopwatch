@@ -38,7 +38,7 @@ F 3 "" H 8670 5510 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0545
+L power:+3.3V #PWR0545
 U 1 1 5D6C3CB3
 P 8670 3810
 F 0 "#PWR0545" H 8670 3660 50  0001 C CNN
@@ -182,7 +182,7 @@ F 3 "" H 3760 880 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0513
+L power:+3.3V #PWR0513
 U 1 1 5D6D25D1
 P 3760 680
 F 0 "#PWR0513" H 3760 530 50  0001 C CNN
@@ -295,7 +295,7 @@ F 3 "" H 3970 1560 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0525
+L power:+3.3V #PWR0525
 U 1 1 5D6E183B
 P 3970 1260
 F 0 "#PWR0525" H 3970 1110 50  0001 C CNN
@@ -335,7 +335,7 @@ F 3 "" H 9420 5770 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0547
+L power:+3.3V #PWR0547
 U 1 1 5D6E4655
 P 9420 5470
 F 0 "#PWR0547" H 9420 5320 50  0001 C CNN
@@ -376,7 +376,7 @@ F 3 "" H 3760 2130 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0515
+L power:+3.3V #PWR0515
 U 1 1 5D6E5B41
 P 3760 1930
 F 0 "#PWR0515" H 3760 1780 50  0001 C CNN
@@ -487,7 +487,7 @@ F 3 "" H 3970 2810 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0527
+L power:+3.3V #PWR0527
 U 1 1 5D6E5B9A
 P 3970 2510
 F 0 "#PWR0527" H 3970 2360 50  0001 C CNN
@@ -532,7 +532,7 @@ F 3 "" H 3760 3380 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0517
+L power:+3.3V #PWR0517
 U 1 1 5D6C3ACC
 P 3760 3180
 F 0 "#PWR0517" H 3760 3030 50  0001 C CNN
@@ -643,7 +643,7 @@ F 3 "" H 3970 4060 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0529
+L power:+3.3V #PWR0529
 U 1 1 5D6C3B24
 P 3970 3760
 F 0 "#PWR0529" H 3970 3610 50  0001 C CNN
@@ -686,7 +686,7 @@ F 3 "" H 3760 4630 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0519
+L power:+3.3V #PWR0519
 U 1 1 5D6CD201
 P 3760 4430
 F 0 "#PWR0519" H 3760 4280 50  0001 C CNN
@@ -797,7 +797,7 @@ F 3 "" H 3970 5310 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0531
+L power:+3.3V #PWR0531
 U 1 1 5D6CD259
 P 3970 5010
 F 0 "#PWR0531" H 3970 4860 50  0001 C CNN
@@ -840,7 +840,7 @@ F 3 "" H 3760 5880 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0521
+L power:+3.3V #PWR0521
 U 1 1 5D6DBA5A
 P 3760 5680
 F 0 "#PWR0521" H 3760 5530 50  0001 C CNN
@@ -951,7 +951,7 @@ F 3 "" H 3970 6560 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0533
+L power:+3.3V #PWR0533
 U 1 1 5D6DBA96
 P 3970 6260
 F 0 "#PWR0533" H 3970 6110 50  0001 C CNN
@@ -994,7 +994,7 @@ F 3 "" H 3760 7130 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0523
+L power:+3.3V #PWR0523
 U 1 1 5D6FE2BD
 P 3760 6930
 F 0 "#PWR0523" H 3760 6780 50  0001 C CNN
@@ -1105,7 +1105,7 @@ F 3 "" H 3970 7810 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0535
+L power:+3.3V #PWR0535
 U 1 1 5D6FE315
 P 3970 7510
 F 0 "#PWR0535" H 3970 7360 50  0001 C CNN
@@ -1223,7 +1223,7 @@ F 3 "" H 5430 2180 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0537
+L power:+3.3V #PWR0537
 U 1 1 5D7298BB
 P 5430 1180
 F 0 "#PWR0537" H 5430 1030 50  0001 C CNN
@@ -1263,7 +1263,7 @@ F 3 "" H 6080 1780 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Library:+3.3V #PWR0540
+L power:+3.3V #PWR0540
 U 1 1 5D72A979
 P 6080 1480
 F 0 "#PWR0540" H 6080 1330 50  0001 C CNN
