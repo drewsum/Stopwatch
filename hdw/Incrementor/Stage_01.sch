@@ -135,36 +135,6 @@ Connection ~ 8830 3590
 Wire Wire Line
 	8830 3590 8830 3490
 $Comp
-L Custom_Library:R_Custom R903
-U 1 1 5D6F149F
-P 4110 4410
-F 0 "R903" H 4210 4570 50  0000 L CNN
-F 1 "10k" V 4110 4340 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 4110 4410 50  0001 C CNN
-F 3 "" H 4110 4410 50  0001 C CNN
-F 4 "0603" H 4210 4480 50  0000 L CNN "display_footprint"
-F 5 "1%" H 4210 4380 50  0000 L CNN "Tolerance"
-F 6 "1/10W" H 4210 4280 50  0000 L CNN "Wattage"
-F 7 "RMCF0603FT10K0CT-ND" H 4410 4810 60  0001 C CNN "Digi-Key PN"
-	1    4110 4410
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:R_Custom R902
-U 1 1 5D6F14A9
-P 3540 4410
-F 0 "R902" H 3640 4570 50  0000 L CNN
-F 1 "10k" V 3540 4340 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 3540 4410 50  0001 C CNN
-F 3 "" H 3540 4410 50  0001 C CNN
-F 4 "0603" H 3640 4480 50  0000 L CNN "display_footprint"
-F 5 "1%" H 3640 4380 50  0000 L CNN "Tolerance"
-F 6 "1/10W" H 3640 4280 50  0000 L CNN "Wattage"
-F 7 "RMCF0603FT10K0CT-ND" H 3840 4810 60  0001 C CNN "Digi-Key PN"
-	1    3540 4410
-	1    0    0    -1  
-$EndComp
-$Comp
 L Custom_Library:R_Custom R901
 U 1 1 5D6F14B3
 P 3000 4410
@@ -180,28 +150,6 @@ F 7 "RMCF0603FT10K0CT-ND" H 3300 4810 60  0001 C CNN "Digi-Key PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0903
-U 1 1 5D6F14B9
-P 4110 4560
-F 0 "#PWR0903" H 4110 4310 50  0001 C CNN
-F 1 "GND" H 4115 4387 50  0000 C CNN
-F 2 "" H 4110 4560 50  0001 C CNN
-F 3 "" H 4110 4560 50  0001 C CNN
-	1    4110 4560
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0902
-U 1 1 5D6F14BF
-P 3540 4560
-F 0 "#PWR0902" H 3540 4310 50  0001 C CNN
-F 1 "GND" H 3545 4387 50  0000 C CNN
-F 2 "" H 3540 4560 50  0001 C CNN
-F 3 "" H 3540 4560 50  0001 C CNN
-	1    3540 4560
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0901
 U 1 1 5D6F14C5
 P 3000 4560
@@ -212,14 +160,6 @@ F 3 "" H 3000 4560 50  0001 C CNN
 	1    3000 4560
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4760 3890 4110 3890
-Wire Wire Line
-	4110 3890 4110 4260
-Wire Wire Line
-	4760 3640 3540 3640
-Wire Wire Line
-	3540 3640 3540 4260
 Wire Wire Line
 	4760 3190 3000 3190
 Wire Wire Line
@@ -236,14 +176,8 @@ Wire Wire Line
 Connection ~ 3000 3190
 Text GLabel 2720 3640 0    50   Input ~ 0
 Count_Reset
-Wire Wire Line
-	2720 3640 3540 3640
-Connection ~ 3540 3640
 Text GLabel 2720 3890 0    50   Input ~ 0
 Display_Enable
-Wire Wire Line
-	2720 3890 4110 3890
-Connection ~ 4110 3890
 $Comp
 L Custom_Library:C_Custom C901
 U 1 1 5D6F14E1
@@ -284,4 +218,8 @@ $EndComp
 NoConn ~ 6360 4040
 NoConn ~ 7110 3590
 NoConn ~ 7510 3590
+Wire Wire Line
+	2720 3640 4760 3640
+Wire Wire Line
+	2720 3890 4760 3890
 $EndSCHEMATC

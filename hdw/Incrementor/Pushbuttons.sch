@@ -395,9 +395,9 @@ Wire Wire Line
 	6850 2010 6850 1870
 Wire Wire Line
 	6850 1870 6400 1870
-Text GLabel 6400 6070 2    50   Output ~ 0
+Text GLabel 7130 6070 2    50   Output ~ 0
 Source_Select
-Text GLabel 6400 3970 2    50   Output ~ 0
+Text GLabel 7130 3970 2    50   Output ~ 0
 Count_Reset
 $Comp
 L Custom_Library:C_Custom C?
@@ -1349,4 +1349,43 @@ Wire Wire Line
 Connection ~ 4270 5020
 Wire Wire Line
 	4270 5020 3880 5020
+$Comp
+L power:GND #PWR?
+U 1 1 5DEF1716
+P 6820 4350
+AR Path="/5D6B2673/5DEF1716" Ref="#PWR?"  Part="1" 
+AR Path="/5D739492/5DEF1716" Ref="#PWR0740"  Part="1" 
+F 0 "#PWR0740" H 6820 4100 50  0001 C CNN
+F 1 "GND" H 6825 4177 50  0000 C CNN
+F 2 "" H 6820 4350 50  0001 C CNN
+F 3 "" H 6820 4350 50  0001 C CNN
+	1    6820 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5DEF1720
+P 6820 4200
+AR Path="/5D6B2673/5DEF1720" Ref="R?"  Part="1" 
+AR Path="/5D739492/5DEF1720" Ref="R712"  Part="1" 
+F 0 "R712" H 6920 4360 50  0000 L CNN
+F 1 "10k" V 6820 4130 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 6820 4200 50  0001 C CNN
+F 3 "" H 6820 4200 50  0001 C CNN
+F 4 "0603" H 6920 4270 50  0000 L CNN "display_footprint"
+F 5 "1%" H 6920 4170 50  0000 L CNN "Tolerance"
+F 6 "1/10W" H 6920 4070 50  0000 L CNN "Wattage"
+F 7 "RMCF0603FT10K0CT-ND" H 7120 4600 60  0001 C CNN "Digi-Key PN"
+	1    6820 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6820 4050 6820 3970
+Wire Wire Line
+	6820 3970 6400 3970
+Wire Wire Line
+	6820 3970 7130 3970
+Connection ~ 6820 3970
+Wire Wire Line
+	6400 6070 7130 6070
 $EndSCHEMATC

@@ -212,38 +212,5 @@ $EndComp
 Text GLabel 6800 3400 2    50   Output ~ 0
 External_Clock
 Wire Wire Line
-	3790 3400 4110 3400
-$Comp
-L Connector:Screw_Terminal_01x02 J802
-U 1 1 5D756832
-P 3590 4100
-F 0 "J802" H 3590 4200 50  0000 C CNN
-F 1 "CLK_IN" H 3590 3900 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3590 4100 50  0001 C CNN
-F 3 "~" H 3590 4100 50  0001 C CNN
-	1    3590 4100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0802
-U 1 1 5D757976
-P 3870 4280
-F 0 "#PWR0802" H 3870 4030 50  0001 C CNN
-F 1 "GND" H 3870 4130 50  0000 C CNN
-F 2 "" H 3870 4280 50  0001 C CNN
-F 3 "" H 3870 4280 50  0001 C CNN
-	1    3870 4280
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3870 4280 3870 4200
-Wire Wire Line
-	3870 4200 3790 4200
-Wire Wire Line
-	3790 4100 4110 4100
-Wire Wire Line
-	4110 4100 4110 3400
-Connection ~ 4110 3400
-Wire Wire Line
-	4110 3400 4610 3400
+	3790 3400 4610 3400
 $EndSCHEMATC

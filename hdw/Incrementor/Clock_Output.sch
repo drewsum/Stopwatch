@@ -22,7 +22,7 @@ AR Path="/5D73A07C/5D7655BF" Ref="J?"  Part="1"
 AR Path="/5D7790AC/5D7655BF" Ref="J1901"  Part="1" 
 F 0 "J1901" H 7420 3600 50  0000 C CNN
 F 1 "CLK_OUT" H 7420 3300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 7420 3500 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x02_Pitch2.54mm" H 7420 3500 50  0001 C CNN
 F 3 "~" H 7420 3500 50  0001 C CNN
 	1    7420 3500
 	1    0    0    -1  
@@ -232,46 +232,9 @@ F 3 "" H 4530 4040 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7220 3500 6900 3500
-$Comp
-L Connector:Screw_Terminal_01x02 J?
-U 1 1 5D76562F
-P 7420 4200
-AR Path="/5D73A07C/5D76562F" Ref="J?"  Part="1" 
-AR Path="/5D7790AC/5D76562F" Ref="J1902"  Part="1" 
-F 0 "J1902" H 7420 4300 50  0000 C CNN
-F 1 "CLK_OUT" H 7420 4000 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7420 4200 50  0001 C CNN
-F 3 "~" H 7420 4200 50  0001 C CNN
-	1    7420 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D765635
-P 7140 4380
-AR Path="/5D73A07C/5D765635" Ref="#PWR?"  Part="1" 
-AR Path="/5D7790AC/5D765635" Ref="#PWR01908"  Part="1" 
-F 0 "#PWR01908" H 7140 4130 50  0001 C CNN
-F 1 "GND" H 7140 4230 50  0000 C CNN
-F 2 "" H 7140 4380 50  0001 C CNN
-F 3 "" H 7140 4380 50  0001 C CNN
-	1    7140 4380
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	7140 4380 7140 4300
-Wire Wire Line
-	7140 4300 7220 4300
-Wire Wire Line
-	7220 4200 6900 4200
-Wire Wire Line
-	6900 4200 6900 3500
-Wire Wire Line
 	4620 3500 5120 3500
-Wire Wire Line
-	6900 3500 6630 3500
-Connection ~ 6900 3500
 Text GLabel 4070 3500 0    50   Input ~ 0
 Stage10_Clock_Out
+Wire Wire Line
+	6630 3500 7220 3500
 $EndSCHEMATC

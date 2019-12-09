@@ -148,40 +148,6 @@ Wire Wire Line
 	8330 3590 8330 3490
 $Comp
 L Custom_Library:R_Custom R?
-U 1 1 5D77E899
-P 3610 4410
-AR Path="/5D6B2673/5D77E899" Ref="R?"  Part="1" 
-AR Path="/5D6C0D48/5D77E899" Ref="R1803"  Part="1" 
-F 0 "R1803" H 3710 4570 50  0000 L CNN
-F 1 "10k" V 3610 4340 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 3610 4410 50  0001 C CNN
-F 3 "" H 3610 4410 50  0001 C CNN
-F 4 "0603" H 3710 4480 50  0000 L CNN "display_footprint"
-F 5 "1%" H 3710 4380 50  0000 L CNN "Tolerance"
-F 6 "1/10W" H 3710 4280 50  0000 L CNN "Wattage"
-F 7 "RMCF0603FT10K0CT-ND" H 3910 4810 60  0001 C CNN "Digi-Key PN"
-	1    3610 4410
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:R_Custom R?
-U 1 1 5D77E8A3
-P 3040 4410
-AR Path="/5D6B2673/5D77E8A3" Ref="R?"  Part="1" 
-AR Path="/5D6C0D48/5D77E8A3" Ref="R1802"  Part="1" 
-F 0 "R1802" H 3140 4570 50  0000 L CNN
-F 1 "10k" V 3040 4340 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 3040 4410 50  0001 C CNN
-F 3 "" H 3040 4410 50  0001 C CNN
-F 4 "0603" H 3140 4480 50  0000 L CNN "display_footprint"
-F 5 "1%" H 3140 4380 50  0000 L CNN "Tolerance"
-F 6 "1/10W" H 3140 4280 50  0000 L CNN "Wattage"
-F 7 "RMCF0603FT10K0CT-ND" H 3340 4810 60  0001 C CNN "Digi-Key PN"
-	1    3040 4410
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:R_Custom R?
 U 1 1 5D77E8AD
 P 2500 4410
 AR Path="/5D6B2673/5D77E8AD" Ref="R?"  Part="1" 
@@ -199,32 +165,6 @@ F 7 "RMCF0603FT10K0CT-ND" H 2800 4810 60  0001 C CNN "Digi-Key PN"
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 5D77E8B3
-P 3610 4560
-AR Path="/5D6B2673/5D77E8B3" Ref="#PWR?"  Part="1" 
-AR Path="/5D6C0D48/5D77E8B3" Ref="#PWR01803"  Part="1" 
-F 0 "#PWR01803" H 3610 4310 50  0001 C CNN
-F 1 "GND" H 3615 4387 50  0000 C CNN
-F 2 "" H 3610 4560 50  0001 C CNN
-F 3 "" H 3610 4560 50  0001 C CNN
-	1    3610 4560
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D77E8B9
-P 3040 4560
-AR Path="/5D6B2673/5D77E8B9" Ref="#PWR?"  Part="1" 
-AR Path="/5D6C0D48/5D77E8B9" Ref="#PWR01802"  Part="1" 
-F 0 "#PWR01802" H 3040 4310 50  0001 C CNN
-F 1 "GND" H 3045 4387 50  0000 C CNN
-F 2 "" H 3040 4560 50  0001 C CNN
-F 3 "" H 3040 4560 50  0001 C CNN
-	1    3040 4560
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
 U 1 1 5D77E8BF
 P 2500 4560
 AR Path="/5D6B2673/5D77E8BF" Ref="#PWR?"  Part="1" 
@@ -236,14 +176,6 @@ F 3 "" H 2500 4560 50  0001 C CNN
 	1    2500 4560
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4260 3890 3610 3890
-Wire Wire Line
-	3610 3890 3610 4260
-Wire Wire Line
-	4260 3640 3040 3640
-Wire Wire Line
-	3040 3640 3040 4260
 Wire Wire Line
 	4260 3190 2500 3190
 Wire Wire Line
@@ -260,14 +192,8 @@ Wire Wire Line
 Connection ~ 2500 3190
 Text GLabel 2220 3640 0    50   Input ~ 0
 Count_Reset
-Wire Wire Line
-	2220 3640 3040 3640
-Connection ~ 3040 3640
 Text GLabel 2220 3890 0    50   Input ~ 0
 Display_Enable
-Wire Wire Line
-	2220 3890 3610 3890
-Connection ~ 3610 3890
 $Comp
 L Custom_Library:C_Custom C?
 U 1 1 5D77E8DB
@@ -314,4 +240,8 @@ $EndComp
 NoConn ~ 5860 4040
 NoConn ~ 6610 3590
 NoConn ~ 7010 3590
+Wire Wire Line
+	2220 3890 4260 3890
+Wire Wire Line
+	2220 3640 4260 3640
 $EndSCHEMATC
