@@ -454,6 +454,7 @@ F 0 "U702" H 3030 1145 50  0000 C CNN
 F 1 "TLV71330PDBV" H 3180 1145 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3180 1220 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv713p.pdf" H 3180 920 50  0001 C CNN
+F 4 "296-40658-1-ND" H 3180 920 50  0001 C CNN "Digi-Key PN"
 	1    3180 920 
 	1    0    0    -1  
 $EndComp
@@ -1231,6 +1232,7 @@ F 0 "U706" H 3030 5345 50  0000 C CNN
 F 1 "TLV71330PDBV" H 3180 5345 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3180 5420 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv713p.pdf" H 3180 5120 50  0001 C CNN
+F 4 "296-40658-1-ND" H 3180 5120 50  0001 C CNN "Digi-Key PN"
 	1    3180 5120
 	1    0    0    -1  
 $EndComp

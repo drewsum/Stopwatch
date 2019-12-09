@@ -22,7 +22,7 @@ AR Path="/5D73A07C/5D7655BF" Ref="J?"  Part="1"
 AR Path="/5D7790AC/5D7655BF" Ref="J1901"  Part="1" 
 F 0 "J1901" H 7420 3600 50  0000 C CNN
 F 1 "CLK_OUT" H 7420 3300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 7420 3500 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x02_Pitch2.54mm" H 7420 3500 50  0001 C CNN
 F 3 "~" H 7420 3500 50  0001 C CNN
 	1    7420 3500
 	1    0    0    -1  
