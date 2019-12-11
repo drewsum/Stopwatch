@@ -297,9 +297,9 @@ U 1 1 5D7081F1
 P 8860 3660
 F 0 "U402" H 8560 4310 50  0000 C CNN
 F 1 "CD4040" H 8560 2910 50  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 8860 3660 50  0001 C CNN
+F 2 "Custom Footprints Library:DHVQFN16-1ep_3p5x2p5mm" H 8860 3660 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4020bms-24bms-40bms.pdf" H 8860 3660 50  0001 C CNN
-F 4 "296-41542-5-ND" H 8860 3660 50  0001 C CNN "Digi-Key PN"
+F 4 "1727-7992-1-ND" H 8860 3660 50  0001 C CNN "Digi-Key PN"
 	1    8860 3660
 	1    0    0    -1  
 $EndComp
