@@ -625,4 +625,16 @@ F 7 "1276-1921-1-ND" H 5025 4880 60  0001 C CNN "Digi-Key PN"
 	1    4600 4380
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:Housing N?
+U 1 1 5DF2EA26
+P 1620 3180
+F 0 "N?" H 1770 3180 50  0000 L CNN
+F 1 "+12V 1A Power Supply" H 1770 3105 50  0000 L CNN
+F 2 "" H 1670 3230 50  0001 C CNN
+F 3 "~" H 1670 3230 50  0001 C CNN
+F 4 "993-1335-ND" H 1620 3180 50  0001 C CNN "Digi-Key PN"
+	1    1620 3180
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

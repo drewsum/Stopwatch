@@ -159,7 +159,7 @@ Connection ~ 6510 4110
 Text GLabel 9170 4110 2    50   Output ~ 0
 Suspend
 $Comp
-L Custom_Library:74LVC1G08_Power U501
+L Custom_Library:74LVC1G08_SON6 U501
 U 1 1 5D6D1819
 P 3760 780
 F 0 "U501" H 3870 930 50  0000 L CNN
@@ -353,7 +353,7 @@ Connection ~ 3100 830
 Text GLabel 9170 4710 2    50   Output ~ 0
 32768Hz_Clock_Select
 $Comp
-L Custom_Library:74LVC1G08_Power U502
+L Custom_Library:74LVC1G08_SON6 U502
 U 1 1 5D6E5B2D
 P 3760 2030
 F 0 "U502" H 3870 2180 50  0000 L CNN
@@ -509,7 +509,7 @@ Text GLabel 9170 4610 2    50   Output ~ 0
 Text GLabel 2450 3230 0    50   Input ~ 0
 16Hz_Clock
 $Comp
-L Custom_Library:74LVC1G08_Power U503
+L Custom_Library:74LVC1G08_SON6 U503
 U 1 1 5D6C3AB8
 P 3760 3280
 F 0 "U503" H 3870 3430 50  0000 L CNN
@@ -663,7 +663,7 @@ Text GLabel 9170 4510 2    50   Output ~ 0
 Text GLabel 2450 4480 0    50   Input ~ 0
 4Hz_Clock
 $Comp
-L Custom_Library:74LVC1G08_Power U504
+L Custom_Library:74LVC1G08_SON6 U504
 U 1 1 5D6CD1ED
 P 3760 4530
 F 0 "U504" H 3870 4680 50  0000 L CNN
@@ -817,7 +817,7 @@ Text GLabel 9170 4410 2    50   Output ~ 0
 Text GLabel 2450 5730 0    50   Input ~ 0
 1Hz_Clock
 $Comp
-L Custom_Library:74LVC1G08_Power U505
+L Custom_Library:74LVC1G08_SON6 U505
 U 1 1 5D6DBA4E
 P 3760 5780
 F 0 "U505" H 3870 5930 50  0000 L CNN
@@ -971,7 +971,7 @@ Text GLabel 9170 4310 2    50   Output ~ 0
 Text GLabel 2450 6980 0    50   Input ~ 0
 External_Clock
 $Comp
-L Custom_Library:74LVC1G08_Power U506
+L Custom_Library:74LVC1G08_SON6 U506
 U 1 1 5D6FE2A9
 P 3760 7030
 F 0 "U506" H 3870 7180 50  0000 L CNN
