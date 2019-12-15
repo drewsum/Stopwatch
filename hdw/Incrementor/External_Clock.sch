@@ -22,6 +22,7 @@ F 0 "J801" H 3590 3500 50  0000 C CNN
 F 1 "CLK_IN" H 3590 3200 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_1x02_Pitch2.54mm" H 3590 3400 50  0001 C CNN
 F 3 "~" H 3590 3400 50  0001 C CNN
+F 4 "SAM1225-02-ND" H 3590 3400 50  0001 C CNN "Digi-Key PN"
 	1    3590 3400
 	-1   0    0    -1  
 $EndComp

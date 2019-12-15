@@ -309,6 +309,7 @@ F 3 "" H 6290 3260 50  0001 C CNN
 F 4 "0603" H 6390 3340 50  0000 L CNN "display_footprint"
 F 5 "1%" H 6390 3260 50  0000 L CNN "Tolerance"
 F 6 "1/10W" H 6400 3180 50  0000 L CNN "Wattage"
+F 7 "311-562KHRCT-ND" H 6290 3260 50  0001 C CNN "Digi-Key PN"
 	1    6290 3260
 	1    0    0    -1  
 $EndComp
@@ -328,6 +329,7 @@ F 3 "" H 6290 4170 50  0001 C CNN
 F 4 "0603" H 6390 4250 50  0000 L CNN "display_footprint"
 F 5 "1%" H 6390 4170 50  0000 L CNN "Tolerance"
 F 6 "1/10W" H 6400 4090 50  0000 L CNN "Wattage"
+F 7 "749-1763-1-ND" H 6290 4170 50  0001 C CNN "Digi-Key PN"
 	1    6290 4170
 	1    0    0    -1  
 $EndComp

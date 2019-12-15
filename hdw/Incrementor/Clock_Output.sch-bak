@@ -24,6 +24,7 @@ F 0 "J1901" H 7420 3600 50  0000 C CNN
 F 1 "CLK_OUT" H 7420 3300 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_1x02_Pitch2.54mm" H 7420 3500 50  0001 C CNN
 F 3 "~" H 7420 3500 50  0001 C CNN
+F 4 "SAM1225-02-ND" H 7420 3500 50  0001 C CNN "Digi-Key PN"
 	1    7420 3500
 	1    0    0    -1  
 $EndComp
