@@ -765,9 +765,6 @@
     (pin "2" (uuid 17fcce11-519b-4d73-970a-a28bd18a38f9))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -868,9 +865,6 @@
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d73948c"
           (reference "C603") (unit 1)
-        )
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "C?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "C?") (unit 1)
@@ -1041,9 +1035,6 @@
     (pin "2" (uuid b5d98433-86a2-47ca-88af-e60fed9af5c5))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -1110,9 +1101,6 @@
     (pin "2" (uuid 0e255300-cf0f-4fe8-ba2c-fc79ea9a747e))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -1289,9 +1277,6 @@
     (pin "2" (uuid b9885cc8-c50a-4e23-acd8-c335c5d4523b))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -1358,9 +1343,6 @@
     (pin "2" (uuid 766cbfa2-a9b5-45fd-8c97-3be1f7cafe8c))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -1537,9 +1519,6 @@
     (pin "2" (uuid 47ee47e8-7374-4b15-9a6a-2eff74bfa721))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -1606,9 +1585,6 @@
     (pin "2" (uuid 974e5fb7-1db0-4395-bc01-c15fc2e7da7b))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -1810,9 +1786,6 @@
     (pin "2" (uuid 1ac2de9f-453f-4da1-9377-9ae5c8ec245c))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -1879,9 +1852,6 @@
     (pin "2" (uuid d6cf44ff-a678-4706-8ec8-fe14266f29a8))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -2058,9 +2028,6 @@
     (pin "2" (uuid bf6d9c55-b1ce-40de-867b-085ffd49db5d))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -2127,9 +2094,6 @@
     (pin "2" (uuid 77239aee-d0d8-40d4-8eb3-6f2e9a4035e3))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -2306,9 +2270,6 @@
     (pin "2" (uuid f814489c-3f1e-4859-a729-b17dfd721def))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -2375,9 +2336,6 @@
     (pin "2" (uuid 473e2f6d-63dd-477a-8622-426c572387e9))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -2554,9 +2512,6 @@
     (pin "2" (uuid d0f266ce-47c6-4473-a106-6f40d566733a))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -2623,9 +2578,6 @@
     (pin "2" (uuid bb80a3c9-8411-4b80-8f19-8d213ff17797))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -2777,9 +2729,6 @@
     (pin "2" (uuid adb5d797-80d1-45d8-84e5-bd8982429862))
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "R?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
         )
@@ -2881,9 +2830,6 @@
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d73948c"
           (reference "C601") (unit 1)
         )
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "C?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "C?") (unit 1)
         )
@@ -2977,9 +2923,6 @@
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d73948c"
           (reference "C604") (unit 1)
-        )
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "C?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "C?") (unit 1)
@@ -3075,9 +3018,6 @@
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d73948c"
           (reference "C607") (unit 1)
         )
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "C?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "C?") (unit 1)
         )
@@ -3171,9 +3111,6 @@
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d73948c"
           (reference "C606") (unit 1)
-        )
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "C?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "C?") (unit 1)
@@ -3269,9 +3206,6 @@
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d73948c"
           (reference "C602") (unit 1)
         )
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "C?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "C?") (unit 1)
         )
@@ -3365,9 +3299,6 @@
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d73948c"
           (reference "C605") (unit 1)
-        )
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "C?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "C?") (unit 1)
@@ -3463,9 +3394,6 @@
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d73948c"
           (reference "C608") (unit 1)
         )
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "C?") (unit 1)
-        )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "C?") (unit 1)
         )
@@ -3559,9 +3487,6 @@
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d73948c"
           (reference "C609") (unit 1)
-        )
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c2755"
-          (reference "C?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "C?") (unit 1)
