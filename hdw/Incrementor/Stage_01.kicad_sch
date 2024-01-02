@@ -5,8 +5,8 @@
   (paper "A")
 
   (title_block
-    (title "Incrementor")
-    (date "2019-09-03")
+    (title "Stopwatch")
+    (date "2024-01-02")
     (rev "A")
     (company "Drew Maatman")
   )
@@ -914,7 +914,7 @@
     (pin "8" (uuid 727f38c9-8743-49bc-b262-93980fe3ac4b))
     (pin "9" (uuid 59f23d9d-19fb-49b1-a0f2-f16c8748fa37))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "U901") (unit 1)
         )
@@ -938,6 +938,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7ff60ef9-637c-4e37-a874-7e59c6fef2bc))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
+          (reference "#PWR0904") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:GND") (at 118.872 112.268 0) (unit 1)
@@ -956,6 +963,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 042be1fd-95a6-45d3-8ef0-b2af128f630d))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
+          (reference "#PWR0905") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Device:R_Pack08") (at 185.674 83.566 270) (unit 1)
@@ -993,7 +1007,7 @@
     (pin "8" (uuid 9d316914-f21e-41b1-9630-37987c3c28e6))
     (pin "9" (uuid 39c9894a-6587-4ef6-8c7c-77973631b6de))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "RN901") (unit 1)
         )
@@ -1033,7 +1047,7 @@
     (pin "8" (uuid ba872030-e990-4c2f-a1a1-a834606f542d))
     (pin "9" (uuid 6e76ae24-1d38-4aab-b281-6b55b48ce22c))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "U902") (unit 1)
         )
@@ -1057,6 +1071,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f301153e-d603-4141-a91c-88d6056142bc))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
+          (reference "#PWR0908") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Custom_Library:R_Custom") (at 76.2 112.014 0) (unit 1)
@@ -1089,7 +1110,7 @@
     (pin "1" (uuid 117ebc1e-fd87-4461-a315-a08ea0d822c7))
     (pin "2" (uuid 31ae4375-d8f5-45ae-b4b0-1aa57f8b7672))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R901") (unit 1)
         )
@@ -1113,6 +1134,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e22e6c9d-179a-4eb7-9fdd-268bd43ba6fa))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
+          (reference "#PWR0901") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Custom_Library:C_Custom") (at 144.018 129.032 0) (unit 1)
@@ -1145,7 +1173,7 @@
     (pin "1" (uuid 80cd2b0f-ee77-4786-9771-39c94619c27a))
     (pin "2" (uuid b72fa05f-f952-426e-a381-583006c372f5))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "C901") (unit 1)
         )
@@ -1169,6 +1197,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 726817cd-f566-4001-8baa-af760ed2906e))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
+          (reference "#PWR0907") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 144.018 125.222 0) (unit 1)
@@ -1187,5 +1222,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fcc22614-801a-401f-af82-dd8a54ee0dbc))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
+          (reference "#PWR0906") (unit 1)
+        )
+      )
+    )
   )
 )

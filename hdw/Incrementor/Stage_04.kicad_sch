@@ -5,8 +5,8 @@
   (paper "A")
 
   (title_block
-    (title "Incrementor")
-    (date "2019-09-03")
+    (title "Stopwatch")
+    (date "2024-01-02")
     (rev "A")
     (company "Drew Maatman")
   )
@@ -914,7 +914,7 @@
     (pin "8" (uuid d858d80f-d344-4b3e-b41a-d6fddc1b6ff3))
     (pin "9" (uuid f6f33dd6-1aaa-414b-b292-1b1fe1327f86))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "U1201") (unit 1)
         )
@@ -942,7 +942,7 @@
     )
     (pin "1" (uuid bc5fdc85-696d-442f-a36b-d292d8e57977))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "#PWR01204") (unit 1)
         )
@@ -970,7 +970,7 @@
     )
     (pin "1" (uuid a840b623-d93a-4d04-8077-61456f8efaab))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "#PWR01205") (unit 1)
         )
@@ -1016,7 +1016,7 @@
     (pin "8" (uuid b50e5b16-e4f3-496c-a8b9-aaf2c15a427a))
     (pin "9" (uuid 8cdd214e-57ce-4e22-b917-2931b81a2a57))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "RN1201") (unit 1)
         )
@@ -1059,7 +1059,7 @@
     (pin "8" (uuid 91f2b59b-1989-442e-8b08-ae82d49df52e))
     (pin "9" (uuid 4f683d0c-294b-448e-a1e8-8d2b4cf5088b))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "U1202") (unit 1)
         )
@@ -1087,7 +1087,7 @@
     )
     (pin "1" (uuid 78bceb65-fb91-48f3-8c01-594e87d8d010))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "#PWR01208") (unit 1)
         )
@@ -1128,7 +1128,7 @@
     (pin "1" (uuid b08a144f-31cd-408d-b662-52a6b65dc6a1))
     (pin "2" (uuid 61b9b164-9164-4aef-8982-e827d410757c))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "R1201") (unit 1)
         )
@@ -1156,7 +1156,7 @@
     )
     (pin "1" (uuid eca6c85a-835e-479e-a724-b197524a11b0))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "#PWR01201") (unit 1)
         )
@@ -1197,7 +1197,7 @@
     (pin "1" (uuid 0fcfee0d-64fe-4404-a28b-5d5cd567f221))
     (pin "2" (uuid c0dc2965-e701-45c1-a91b-ba0425257bc9))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "C1201") (unit 1)
         )
@@ -1225,7 +1225,7 @@
     )
     (pin "1" (uuid 4c82f4cc-bb6a-4d81-8c65-2bb4306a866c))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "#PWR01207") (unit 1)
         )
@@ -1253,7 +1253,7 @@
     )
     (pin "1" (uuid c6a9f403-265d-4433-bb78-aa22f343b06d))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "#PWR01206") (unit 1)
         )

@@ -5,8 +5,8 @@
   (paper "A")
 
   (title_block
-    (title "Incrementor")
-    (date "2019-09-03")
+    (title "Stopwatch")
+    (date "2024-01-02")
     (rev "A")
     (company "Drew Maatman")
   )
@@ -19,29 +19,13 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 1e248677-64af-4cbd-ac8d-3a6daf859420)
   )
-  (text "18. Stage 10" (at 29.972 179.832 0)
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
-    (uuid 3194f0fd-e93c-4f33-b40c-f62625ad31bb)
-  )
-  (text "17. Stage 9" (at 29.972 170.942 0)
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
-    (uuid 330db30e-bf9e-48e2-8493-f385f98e12f8)
-  )
   (text "11. Stage 3" (at 29.972 117.602 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 4a5bb074-35a9-4a2e-b5b5-c50eb3af651a)
   )
-  (text "19. Clock Output" (at 29.972 188.722 0)
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
-    (uuid 5c548d24-27de-4ab5-9d2f-41f649f5e336)
-  )
   (text "06. Status LEDs" (at 29.972 73.152 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 5eed3a44-fa00-4e64-9abc-93d3142be692)
-  )
-  (text "08. External Clock" (at 29.972 90.932 0)
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
-    (uuid 65460415-4f52-4259-a5c0-8bdcd5192c92)
   )
   (text "20. Mechanical" (at 29.972 197.612 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
@@ -51,15 +35,7 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 797f9d57-7416-435e-ad36-4bdc3f9749fa)
   )
-  (text "16. Stage 8" (at 29.972 162.052 0)
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
-    (uuid 8fc30514-a346-4f37-942b-7f2ba9df32c6)
-  )
-  (text "15. Stage 7" (at 29.972 153.162 0)
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
-    (uuid a5c84e66-6daf-4b3e-8b14-25b9d01371d6)
-  )
-  (text "The Incrementor" (at 97.282 23.368 0)
+  (text "Stopwatch" (at 97.282 23.368 0)
     (effects (font (size 6.35 6.35) (thickness 1.27) bold) (justify left bottom))
     (uuid a76567c3-b6bd-4329-acd1-6412d6b4d4d3)
   )
@@ -111,7 +87,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "9"))
       )
     )
@@ -128,7 +104,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "10"))
       )
     )
@@ -145,7 +121,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "11"))
       )
     )
@@ -162,7 +138,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "12"))
       )
     )
@@ -179,7 +155,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "13"))
       )
     )
@@ -196,76 +172,8 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "14"))
-      )
-    )
-  )
-
-  (sheet (at 102.87 149.352) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005d6c0d35)
-    (property "Sheetname" "Stage 07" (at 102.87 148.6404 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Stage_07.kicad_sch" (at 102.87 153.7466 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Incrementor"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "15"))
-      )
-    )
-  )
-
-  (sheet (at 102.87 158.242) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005d6c0d3b)
-    (property "Sheetname" "Stage 08" (at 102.87 157.5304 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Stage_08.kicad_sch" (at 102.87 162.6366 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Incrementor"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "16"))
-      )
-    )
-  )
-
-  (sheet (at 102.87 167.132) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005d6c0d41)
-    (property "Sheetname" "Stage 09" (at 102.87 166.4204 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Stage_09.kicad_sch" (at 102.87 171.5266 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Incrementor"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "17"))
-      )
-    )
-  )
-
-  (sheet (at 102.87 176.022) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005d6c0d48)
-    (property "Sheetname" "Stage 10" (at 102.87 175.3104 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Stage_10.kicad_sch" (at 102.87 180.4166 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Incrementor"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "18"))
       )
     )
   )
@@ -281,7 +189,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "5"))
       )
     )
@@ -298,7 +206,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "6"))
       )
     )
@@ -315,42 +223,8 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 102.87 87.122) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005d73a07c)
-    (property "Sheetname" "External Clock" (at 102.87 86.4104 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "External_Clock.kicad_sch" (at 102.87 91.5166 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Incrementor"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 102.87 184.912) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 00000000-0000-0000-0000-00005d7790ac)
-    (property "Sheetname" "Clock Output" (at 102.87 184.2004 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Clock_Output.kicad_sch" (at 102.87 189.3066 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Incrementor"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "19"))
       )
     )
   )
@@ -366,7 +240,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "3"))
       )
     )
@@ -383,7 +257,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "2"))
       )
     )
@@ -400,7 +274,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "20"))
       )
     )
@@ -417,7 +291,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "4"))
       )
     )

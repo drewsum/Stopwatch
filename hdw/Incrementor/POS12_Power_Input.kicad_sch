@@ -5,8 +5,8 @@
   (paper "A")
 
   (title_block
-    (title "Incrementor")
-    (date "2019-09-03")
+    (title "Stopwatch")
+    (date "2024-01-02")
     (rev "A")
     (company "Drew Maatman")
   )
@@ -1371,7 +1371,7 @@
   (symbol (lib_id "Custom_Library:C_Custom") (at 134.62 155.194 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb576fa)
-    (property "Reference" "C?" (at 135.255 152.654 0)
+    (property "Reference" "C201" (at 135.255 152.654 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 135.255 157.734 0)
@@ -1398,7 +1398,7 @@
     (pin "1" (uuid 28483fe4-8cb9-41fa-b5de-25885e60a9ac))
     (pin "2" (uuid 6dc7bd8a-afcb-4cdb-afd9-258b5dad4d4d))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
           (reference "C201") (unit 1)
         )
@@ -1409,7 +1409,7 @@
   (symbol (lib_id "Custom_Library:C_Custom") (at 142.24 155.194 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb57705)
-    (property "Reference" "C?" (at 142.875 152.654 0)
+    (property "Reference" "C202" (at 142.875 152.654 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 142.875 157.734 0)
@@ -1436,7 +1436,7 @@
     (pin "1" (uuid 21aed2a1-39c1-4a7d-a88b-2944e1d849d6))
     (pin "2" (uuid 52c9135b-2ee1-4830-a9f0-a2b3ea9e1eb9))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
           (reference "C202") (unit 1)
         )
@@ -1447,7 +1447,7 @@
   (symbol (lib_id "Custom_Library:C_Custom") (at 149.86 155.194 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb57710)
-    (property "Reference" "C?" (at 150.495 152.654 0)
+    (property "Reference" "C203" (at 150.495 152.654 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 150.495 157.734 0)
@@ -1474,7 +1474,7 @@
     (pin "1" (uuid 0dc450c1-fb24-4caa-a657-f19818eb98ca))
     (pin "2" (uuid 67144722-f3e8-4f98-b6e4-a7be9c55f070))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
           (reference "C203") (unit 1)
         )
@@ -1498,6 +1498,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f7546850-dd0b-466e-a8dc-736c98cde4e6))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "#PWR0208") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Custom_Library:+12Vin") (at 83.82 54.864 0) (unit 1)
@@ -1516,6 +1523,13 @@
       (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid 1021c3a1-c0ba-4a6b-8cb8-ab44da02edcb))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "#PWR0204") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Custom_Library:+12Vin") (at 142.24 149.352 0) (unit 1)
@@ -1534,6 +1548,13 @@
       (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid a636f246-2f75-412d-8a0d-a74a6d56eab1))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "#PWR0207") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Custom_Library:CP_Tant_Custom") (at 214.122 62.738 0) (unit 1)
@@ -1566,7 +1587,7 @@
     (pin "1" (uuid b8930134-00c4-433e-befb-9c7d0f813fe8))
     (pin "2" (uuid 88c7dfaf-4047-4445-aede-5e4acccffb2d))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
           (reference "C205") (unit 1)
         )
@@ -1590,6 +1611,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ae2b3005-92e5-496c-ab7d-f98c345b5c7c))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "#PWR0212") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:+12V") (at 214.122 54.864 0) (unit 1)
@@ -1608,6 +1636,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 05253ca2-c32f-4810-affb-efd546b58075))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "#PWR0211") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 195.072 55.118 0) (unit 1)
@@ -1627,7 +1662,7 @@
     )
     (pin "1" (uuid bde0bf5f-fa02-4e1e-a9b8-54cc222b8a96))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
           (reference "#FLG0203") (unit 1)
         )
@@ -1651,6 +1686,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1b6fb536-444b-4a93-a2bb-6fc733073fc4))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "#PWR0202") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 51.562 103.378 0) (unit 1)
@@ -1670,7 +1712,7 @@
     )
     (pin "1" (uuid 1684feae-9b50-404d-8d1d-ba775605683e))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
           (reference "#FLG0201") (unit 1)
         )
@@ -1695,7 +1737,7 @@
     )
     (pin "1" (uuid 8c63735f-5954-4665-9ea1-5e23bf6264a5))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
           (reference "#FLG0202") (unit 1)
         )
@@ -1724,7 +1766,7 @@
     (pin "1" (uuid 6915fba7-3cf2-4e8c-9812-6b4b4f7c4c68))
     (pin "2" (uuid 5872b2ec-0c12-4345-9957-ce357287cf41))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
           (reference "D201") (unit 1)
         )
@@ -1748,6 +1790,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f1dd4988-e451-474f-8ad8-c728e760d7ce))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "#PWR0205") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Connector:Barrel_Jack_Switch") (at 40.132 59.436 0) (unit 1)
@@ -1772,7 +1821,7 @@
     (pin "2" (uuid c42b77fe-de10-411e-a273-086a4aac6fe8))
     (pin "3" (uuid 45ca026c-4208-41bc-a679-7c5164492125))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
           (reference "J201") (unit 1)
         )
@@ -1796,6 +1845,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 62b96a32-2707-4001-a645-26833c250bc1))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "#PWR0201") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Incrementor-rescue:TPS26600RHFT-Custom_Library") (at 142.24 92.456 0) (unit 1)
@@ -1819,8 +1875,8 @@
     (pin "1" (uuid 6020a6b9-3f96-4a71-bf52-c099d3d82157))
     (pin "10" (uuid 1a5e8c2b-e549-4b93-a21d-46a6259cc015))
     (pin "11" (uuid 946f3b05-9a9f-4acc-bac9-552496769f2d))
-    (pin "12" (uuid 3cc33c05-0030-4757-8831-c4159dc5091a))
-    (pin "12" (uuid 3cc33c05-0030-4757-8831-c4159dc5091a))
+    (pin "12" (uuid 3cc33c05-0030-4757-8831-c4159dc5091c))
+    (pin "12" (uuid 3cc33c05-0030-4757-8831-c4159dc5091c))
     (pin "13" (uuid 2db24703-c21e-4a4e-91dc-18b6ab399033))
     (pin "14" (uuid 1695741e-1bfa-4e91-81fd-c2483e2684c1))
     (pin "15" (uuid 71f2f2b3-f0a0-44d6-bed8-2a41f1ce2dd9))
@@ -1842,7 +1898,7 @@
     (pin "8" (uuid f2b26dd0-fa9b-4bf0-87b1-b7ba5047758d))
     (pin "9" (uuid d06d0586-abb6-4056-a323-3ed9b6936eae))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c"
           (reference "U201") (unit 1)
         )
@@ -1869,6 +1925,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2702a7a3-f35f-42d9-b36d-13402c512a3b))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "#PWR0206") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Custom_Library:R_Custom") (at 167.894 97.282 0) (unit 1)
@@ -1901,7 +1964,7 @@
     (pin "1" (uuid 683d1937-6c3c-44b0-a311-8395a9e9509e))
     (pin "2" (uuid bfc75b42-e653-4371-aa1d-d172eb1b33fc))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "R?") (unit 1)
         )
@@ -1931,6 +1994,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c805c905-412e-4da1-80d1-90d5e41fcd7e))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "#PWR0209") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Custom_Library:R_Custom") (at 166.116 132.334 0) (unit 1)
@@ -1963,7 +2033,7 @@
     (pin "1" (uuid efd2cf79-59dd-4585-b241-5f150709f206))
     (pin "2" (uuid 5d9dc85b-5dd7-4a26-b3dd-19328bb3efd4))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "R?") (unit 1)
         )
@@ -2007,7 +2077,7 @@
     (pin "1" (uuid b00b5c96-949b-47df-b545-08cf6aa10a82))
     (pin "2" (uuid f8ad8c5f-118e-484a-aa75-089870c99c30))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "R?") (unit 1)
         )
@@ -2051,7 +2121,7 @@
     (pin "1" (uuid 420f16fd-817e-411b-9d2c-713aef423217))
     (pin "2" (uuid e8727c43-bf52-4249-a6a3-d58201e569de))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "R?") (unit 1)
         )
@@ -2095,7 +2165,7 @@
     (pin "1" (uuid e4689417-db81-4b9d-bbfd-b87fa6225d92))
     (pin "2" (uuid 051f0600-f353-4871-bba5-00cf153afe55))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "R?") (unit 1)
         )
@@ -2139,7 +2209,7 @@
     (pin "1" (uuid b3c46510-406f-4ba3-adf0-69e1fa119e6c))
     (pin "2" (uuid 6753a6cd-d1ce-4da1-b9e4-a669f5f051dc))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "R?") (unit 1)
         )
@@ -2183,7 +2253,7 @@
     (pin "1" (uuid 906aa3e4-6d55-4154-8472-aec4958ac61d))
     (pin "2" (uuid 9d20e295-4e28-42be-80cc-a42d7968864a))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
           (reference "R?") (unit 1)
         )
@@ -2214,7 +2284,7 @@
     )
     (pin "1" (uuid 7bae1926-124e-4553-8ab6-3354da88f386))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
           (reference "TP203") (unit 1)
         )
@@ -2239,7 +2309,7 @@
     )
     (pin "1" (uuid 363d8e5d-2324-4eac-a517-0f11f5352145))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
           (reference "TP202") (unit 1)
         )
@@ -2267,7 +2337,7 @@
     )
     (pin "1" (uuid 29884419-26fc-4fbd-b52f-4adf37b75e74))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
           (reference "TP201") (unit 1)
         )
@@ -2291,12 +2361,19 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 97fafef0-6067-49c7-acc5-2b71908f3ae2))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "#PWR0203") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Custom_Library:C_Custom") (at 116.84 111.252 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005deadb5a)
-    (property "Reference" "C?" (at 117.475 108.712 0)
+    (property "Reference" "C204" (at 117.475 108.712 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 117.475 113.792 0)
@@ -2323,7 +2400,7 @@
     (pin "1" (uuid 9ab0b0be-d461-41cb-83e5-af78eb5873a4))
     (pin "2" (uuid 9affcec3-c60f-4c70-a27d-897a73139470))
     (instances
-      (project "Incrementor"
+      (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
           (reference "C204") (unit 1)
         )
@@ -2348,6 +2425,13 @@
     )
     (property "Digi-Key PN" "993-1335-ND" (at 41.148 80.772 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "N201") (unit 1)
+        )
+      )
     )
   )
 )

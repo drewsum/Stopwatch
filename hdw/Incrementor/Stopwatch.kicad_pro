@@ -266,7 +266,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -281,7 +281,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Incrementor.kicad_pro",
+    "filename": "Stopwatch.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -387,10 +387,6 @@
       "Pushbuttons"
     ],
     [
-      "00000000-0000-0000-0000-00005d73a07c",
-      "External Clock"
-    ],
-    [
       "00000000-0000-0000-0000-00005d6b2673",
       "Stage 01"
     ],
@@ -413,26 +409,6 @@
     [
       "00000000-0000-0000-0000-00005d6c0d2f",
       "Stage 06"
-    ],
-    [
-      "00000000-0000-0000-0000-00005d6c0d35",
-      "Stage 07"
-    ],
-    [
-      "00000000-0000-0000-0000-00005d6c0d3b",
-      "Stage 08"
-    ],
-    [
-      "00000000-0000-0000-0000-00005d6c0d41",
-      "Stage 09"
-    ],
-    [
-      "00000000-0000-0000-0000-00005d6c0d48",
-      "Stage 10"
-    ],
-    [
-      "00000000-0000-0000-0000-00005d7790ac",
-      "Clock Output"
     ],
     [
       "00000000-0000-0000-0000-00005d77c1ea",
