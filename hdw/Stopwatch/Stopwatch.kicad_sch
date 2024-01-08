@@ -43,6 +43,14 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid b7cee430-b936-47f3-9fdd-91e61793d2ed)
   )
+  (text "Minutes Reset" (at 30.48 158.75 0)
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
+    (uuid b8ae43fb-2e01-4d5d-9bfe-46aef950ca3e)
+  )
+  (text "ADD COLONS" (at 180.34 86.36 0)
+    (effects (font (size 6.35 6.35) (thickness 1.27) bold) (justify left bottom))
+    (uuid bdee340f-d6bc-458f-8824-b6700d391ff1)
+  )
   (text "10. Stage 2" (at 30.48 96.52 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid d6d16791-20a0-4ee6-94f7-2b42e4792ded)
@@ -272,6 +280,23 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 102.87 154.94) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9a6278e5-7c9a-47c3-8cbd-b4afa571ccff)
+    (property "Sheetname" "Minutes Reset" (at 102.87 154.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "minutes_reset.kicad_sch" (at 102.87 159.3346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "15"))
       )
     )
   )
