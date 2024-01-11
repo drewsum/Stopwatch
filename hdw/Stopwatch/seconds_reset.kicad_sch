@@ -4,6 +4,13 @@
 
   (paper "A")
 
+  (title_block
+    (title "Stopwatch")
+    (date "2024-01-11")
+    (rev "A")
+    (company "Drew Maatman")
+  )
+
   (lib_symbols
     (symbol "Custom Library:74LVC1G97_Power_AND" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 1.524 3.81 0)

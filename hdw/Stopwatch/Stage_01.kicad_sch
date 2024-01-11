@@ -6,7 +6,7 @@
 
   (title_block
     (title "Stopwatch")
-    (date "2024-01-02")
+    (date "2024-01-11")
     (rev "A")
     (company "Drew Maatman")
   )
@@ -931,7 +931,7 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "Stage01_Clock_In" (shape input) (at 55.88 81.28 180)
+  (global_label "1Hz_Clock" (shape input) (at 55.88 81.28 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f0bbef76-8931-4cf9-a4f6-68ebb04a8ad4)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 55.88 81.28 0)
