@@ -15,21 +15,25 @@
   )
 
 
-  (text "14. Stage 6" (at 30.48 137.16 0)
+  (text "12. Stage 6" (at 30.48 137.16 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 1e248677-64af-4cbd-ac8d-3a6daf859420)
   )
-  (text "11. Stage 3" (at 30.48 106.68 0)
+  (text "09. Stage 3" (at 30.48 106.68 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 4a5bb074-35a9-4a2e-b5b5-c50eb3af651a)
   )
-  (text "06. Status LEDs" (at 30.48 67.31 0)
+  (text "05. Status LEDs" (at 30.48 67.31 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 5eed3a44-fa00-4e64-9abc-93d3142be692)
   )
-  (text "12. Stage 4" (at 30.48 116.84 0)
+  (text "10. Stage 4" (at 30.48 116.84 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 797f9d57-7416-435e-ad36-4bdc3f9749fa)
+  )
+  (text "15. Mechanical" (at 30.48 168.91 0)
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
+    (uuid 8e0ac3cc-bc93-4c71-99bc-5e6f31589e4a)
   )
   (text "Stopwatch" (at 97.282 23.368 0)
     (effects (font (size 6.35 6.35) (thickness 1.27) bold) (justify left bottom))
@@ -43,19 +47,15 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid b7cee430-b936-47f3-9fdd-91e61793d2ed)
   )
-  (text "Minutes Reset" (at 30.48 158.75 0)
+  (text "14. Minutes Reset" (at 30.48 158.75 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid b8ae43fb-2e01-4d5d-9bfe-46aef950ca3e)
   )
-  (text "ADD COLONS" (at 180.34 86.36 0)
-    (effects (font (size 6.35 6.35) (thickness 1.27) bold) (justify left bottom))
-    (uuid bdee340f-d6bc-458f-8824-b6700d391ff1)
-  )
-  (text "10. Stage 2" (at 30.48 96.52 0)
+  (text "08. Stage 2" (at 30.48 96.52 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid d6d16791-20a0-4ee6-94f7-2b42e4792ded)
   )
-  (text "07. Pushbuttons" (at 30.48 76.2 0)
+  (text "06. Pushbuttons" (at 30.48 76.2 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid d6f6021c-67c6-48db-81cc-9e12d8d5cb9c)
   )
@@ -63,15 +63,15 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid e08f1c8f-11a1-4f3c-960d-5e71762027e3)
   )
-  (text "09. Stage 1" (at 30.48 86.36 0)
+  (text "07. Stage 1" (at 30.48 86.36 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid ec3244ec-b08f-4664-bc7d-1b229735f0e3)
   )
-  (text "13. Stage 5" (at 30.48 127 0)
+  (text "11. Stage 5" (at 30.48 127 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid faf34d35-df4c-4689-8b05-3671675e1b0d)
   )
-  (text "Seconds Reset" (at 30.48 148.59 0)
+  (text "13. Seconds Reset" (at 30.48 148.59 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid fef84c06-5032-4d6c-9d9a-4eb8cb17a2e9)
   )
@@ -92,7 +92,7 @@
     )
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "9"))
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "7"))
       )
     )
   )
@@ -109,7 +109,7 @@
     )
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "10"))
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "8"))
       )
     )
   )
@@ -126,7 +126,7 @@
     )
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "11"))
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "9"))
       )
     )
   )
@@ -143,7 +143,7 @@
     )
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "12"))
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "10"))
       )
     )
   )
@@ -160,7 +160,7 @@
     )
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "13"))
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "11"))
       )
     )
   )
@@ -177,7 +177,7 @@
     )
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "14"))
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "12"))
       )
     )
   )
@@ -194,7 +194,7 @@
     )
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "6"))
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "5"))
       )
     )
   )
@@ -211,7 +211,7 @@
     )
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "7"))
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "6"))
       )
     )
   )
@@ -250,19 +250,19 @@
     )
   )
 
-  (sheet (at 102.87 194.31) (size 12.7 3.81) (fields_autoplaced)
+  (sheet (at 102.87 165.1) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00005d77c1ea)
-    (property "Sheetname" "Mechanical" (at 102.87 193.5984 0)
+    (property "Sheetname" "Mechanical" (at 102.87 164.3884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Mechanical.kicad_sch" (at 102.87 198.7046 0)
+    (property "Sheetfile" "Mechanical.kicad_sch" (at 102.87 169.4946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "20"))
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "15"))
       )
     )
   )
@@ -296,7 +296,7 @@
     )
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "15"))
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "14"))
       )
     )
   )
@@ -313,7 +313,7 @@
     )
     (instances
       (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "14"))
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c" (page "13"))
       )
     )
   )
