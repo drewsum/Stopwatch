@@ -410,52 +410,6 @@
         )
       )
     )
-    (symbol "Incrementor-rescue:+3.3V-power" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V-power" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V-power_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3V-power_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Incrementor-rescue:D_TVS_ALT-Device" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -1029,9 +983,6 @@
   (junction (at 83.82 57.15) (diameter 0) (color 0 0 0 0)
     (uuid 587bace7-900b-4773-ac35-90f39b5a5209)
   )
-  (junction (at 167.64 105.41) (diameter 0) (color 0 0 0 0)
-    (uuid 6f30c4be-671c-4b91-9eb0-3cf1fea26b37)
-  )
   (junction (at 116.84 138.43) (diameter 0) (color 0 0 0 0)
     (uuid 8eb84e5f-7e57-42c0-8283-943fc506e5a8)
   )
@@ -1041,11 +992,11 @@
   (junction (at 96.52 57.15) (diameter 0) (color 0 0 0 0)
     (uuid a06f3c1a-e00d-4c65-8589-3d67d114a2d9)
   )
-  (junction (at 195.58 57.15) (diameter 0) (color 0 0 0 0)
-    (uuid a9ba0452-3334-4d73-af73-620abeca4e07)
-  )
   (junction (at 49.53 62.23) (diameter 0) (color 0 0 0 0)
     (uuid ab499b31-88bd-4580-9224-f45a539480b1)
+  )
+  (junction (at 167.64 105.41) (diameter 0) (color 0 0 0 0)
+    (uuid b73a591d-8f0e-4165-bec3-ab9d44651d38)
   )
   (junction (at 96.52 82.55) (diameter 0) (color 0 0 0 0)
     (uuid c3ac0aca-ad82-4200-b0b8-e6efa95d8c97)
@@ -1127,13 +1078,13 @@
     (stroke (width 0) (type default))
     (uuid 2f1c476a-0163-4dfa-b35d-79f8585ebff6)
   )
-  (wire (pts (xy 172.72 105.41) (xy 167.64 105.41))
-    (stroke (width 0) (type default))
-    (uuid 2f52eb27-1326-44d3-af28-38e2ded7c2ed)
-  )
   (wire (pts (xy 69.85 58.42) (xy 69.85 57.15))
     (stroke (width 0) (type default))
     (uuid 34685e8e-c959-4a11-9f19-d13b1ea68283)
+  )
+  (wire (pts (xy 167.64 106.68) (xy 167.64 105.41))
+    (stroke (width 0) (type default))
+    (uuid 41d6ddc6-e2d5-4ce7-838b-cc70d3ab88df)
   )
   (wire (pts (xy 96.52 82.55) (xy 96.52 85.09))
     (stroke (width 0) (type default))
@@ -1154,10 +1105,6 @@
   (wire (pts (xy 83.82 57.15) (xy 69.85 57.15))
     (stroke (width 0) (type default))
     (uuid 57eb1540-9806-4082-ac8c-26991cb4a5cf)
-  )
-  (wire (pts (xy 167.64 105.41) (xy 167.64 101.6))
-    (stroke (width 0) (type default))
-    (uuid 58f41793-ee30-4acb-b8bf-114fd752aa3f)
   )
   (wire (pts (xy 96.52 63.5) (xy 96.52 57.15))
     (stroke (width 0) (type default))
@@ -1183,10 +1130,6 @@
     (stroke (width 0) (type default))
     (uuid 968e2cd5-c085-4034-935d-519c48b3f77c)
   )
-  (wire (pts (xy 214.63 57.15) (xy 195.58 57.15))
-    (stroke (width 0) (type default))
-    (uuid 9cad1c9b-fb42-4c52-ad3b-3c7640ecccd4)
-  )
   (wire (pts (xy 116.84 63.5) (xy 116.84 57.15))
     (stroke (width 0) (type default))
     (uuid 9eb569bc-538b-448f-9d3f-c7963d28b6d8)
@@ -1211,7 +1154,7 @@
     (stroke (width 0) (type default))
     (uuid aea12958-a2b2-4d0b-87c9-589325d1e739)
   )
-  (wire (pts (xy 195.58 57.15) (xy 167.64 57.15))
+  (wire (pts (xy 167.64 57.15) (xy 214.63 57.15))
     (stroke (width 0) (type default))
     (uuid af394136-d36f-4d64-8edf-9f6f76768262)
   )
@@ -1231,13 +1174,13 @@
     (stroke (width 0) (type default))
     (uuid bd7a6ef8-573f-42ae-8cfd-09cdd1f5e1ca)
   )
-  (wire (pts (xy 195.58 54.61) (xy 195.58 57.15))
-    (stroke (width 0) (type default))
-    (uuid c01b093a-fd86-4c87-8994-39a07b49e3c0)
-  )
   (wire (pts (xy 124.46 138.43) (xy 124.46 125.73))
     (stroke (width 0) (type default))
     (uuid c03d6bf8-8b98-4124-beb0-5f4df72456d9)
+  )
+  (wire (pts (xy 167.64 105.41) (xy 167.64 102.87))
+    (stroke (width 0) (type default))
+    (uuid c205508f-de83-48eb-9f64-0544259f2d93)
   )
   (wire (pts (xy 214.63 58.42) (xy 214.63 57.15))
     (stroke (width 0) (type default))
@@ -1251,10 +1194,6 @@
     (stroke (width 0) (type default))
     (uuid ca1fdfe9-04ce-471a-a39e-189956671155)
   )
-  (wire (pts (xy 157.48 105.41) (xy 167.64 105.41))
-    (stroke (width 0) (type default))
-    (uuid cb927c92-df0a-40a0-b9c0-4341f3104937)
-  )
   (wire (pts (xy 116.84 138.43) (xy 124.46 138.43))
     (stroke (width 0) (type default))
     (uuid cdf8d090-842c-4012-926f-083f68cc5ca4)
@@ -1262,6 +1201,10 @@
   (wire (pts (xy 116.84 57.15) (xy 96.52 57.15))
     (stroke (width 0) (type default))
     (uuid ceba5c2a-fa33-4e5a-b482-017b76bec825)
+  )
+  (wire (pts (xy 172.72 105.41) (xy 167.64 105.41))
+    (stroke (width 0) (type default))
+    (uuid d58a7cc1-faed-43f5-9611-10d7f743c690)
   )
   (wire (pts (xy 166.37 128.27) (xy 166.37 125.73))
     (stroke (width 0) (type default))
@@ -1274,6 +1217,10 @@
   (wire (pts (xy 127 57.15) (xy 124.46 57.15))
     (stroke (width 0) (type default))
     (uuid df7c4b0a-8af9-4b84-8cbe-ef796e9888ce)
+  )
+  (wire (pts (xy 157.48 105.41) (xy 167.64 105.41))
+    (stroke (width 0) (type default))
+    (uuid eaab5781-0580-4e02-aff6-8862cf109159)
   )
   (wire (pts (xy 116.84 107.95) (xy 116.84 102.87))
     (stroke (width 0) (type default))
@@ -1300,24 +1247,28 @@
     (uuid fdedd01c-a81c-47dd-a5ed-dcb9b22f8659)
   )
 
+  (text "+3.3V Logic Level" (at 181.864 98.298 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a8e88d01-705a-4b02-90b8-e09d5ed4d0f3)
+  )
   (text "UVLO threshold set to 10.8V\nOVLO threshold set to 13.2V\n\nMODE set to Circuit Breaker with Auto-Retry"
     (at 34.29 134.112 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f5d0db24-42c7-4f35-8658-c5d99d7e4f1b)
   )
 
-  (global_label "POS12_PGOOD" (shape output) (at 172.72 105.41 0)
+  (global_label "POS12_PGOOD" (shape output) (at 172.72 105.41 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 9fd99806-f997-4350-acae-c608049ecabd)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 172.72 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (uuid 8f1bde54-18e9-4a8d-af47-2081ac29e004)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 188.6392 105.41 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
 
   (symbol (lib_id "Custom_Library:C_Custom") (at 142.24 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb576fa)
-    (property "Reference" "C?" (at 142.875 152.4 0)
+    (property "Reference" "C202" (at 142.875 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 142.875 157.48 0)
@@ -1346,7 +1297,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "C?") (unit 1)
+          (reference "C202") (unit 1)
         )
       )
     )
@@ -1355,7 +1306,7 @@
   (symbol (lib_id "power:GND") (at 142.24 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb5eff4)
-    (property "Reference" "#PWR?" (at 142.24 165.1 0)
+    (property "Reference" "#PWR0208" (at 142.24 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 162.56 0)
@@ -1371,7 +1322,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -1380,7 +1331,7 @@
   (symbol (lib_id "Custom_Library:+12Vin") (at 83.82 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb687e3)
-    (property "Reference" "#PWR?" (at 83.82 58.42 0)
+    (property "Reference" "#PWR0205" (at 83.82 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12Vin" (at 83.82 50.8 0)
@@ -1396,7 +1347,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -1405,7 +1356,7 @@
   (symbol (lib_id "Custom_Library:+12Vin") (at 142.24 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb6907f)
-    (property "Reference" "#PWR?" (at 142.24 154.94 0)
+    (property "Reference" "#PWR0207" (at 142.24 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12Vin" (at 142.24 147.32 0)
@@ -1421,7 +1372,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -1430,7 +1381,7 @@
   (symbol (lib_id "Custom_Library:CP_Tant_Custom") (at 214.63 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb7221c)
-    (property "Reference" "C?" (at 215.265 59.69 0)
+    (property "Reference" "C203" (at 215.265 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 215.265 64.77 0)
@@ -1459,7 +1410,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "C?") (unit 1)
+          (reference "C203") (unit 1)
         )
       )
     )
@@ -1468,7 +1419,7 @@
   (symbol (lib_id "power:GND") (at 214.63 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb72223)
-    (property "Reference" "#PWR?" (at 214.63 72.39 0)
+    (property "Reference" "#PWR0212" (at 214.63 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 214.63 69.85 0)
@@ -1484,7 +1435,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0212") (unit 1)
         )
       )
     )
@@ -1493,7 +1444,7 @@
   (symbol (lib_id "power:+12V") (at 214.63 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb79912)
-    (property "Reference" "#PWR?" (at 214.63 58.42 0)
+    (property "Reference" "#PWR0211" (at 214.63 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 214.63 51.054 0)
@@ -1509,32 +1460,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 195.58 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005bb7a7f6)
-    (property "Reference" "#FLG?" (at 195.58 52.705 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 195.58 50.8 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 195.58 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 195.58 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bde0bf5f-fa02-4e1e-a9b8-54cc222b8a96))
-    (instances
-      (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "#FLG?") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -1543,7 +1469,7 @@
   (symbol (lib_id "power:GND") (at 52.07 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb7fee9)
-    (property "Reference" "#PWR?" (at 52.07 109.22 0)
+    (property "Reference" "#PWR0203" (at 52.07 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 52.07 106.68 0)
@@ -1559,7 +1485,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -1568,7 +1494,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 52.07 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb80368)
-    (property "Reference" "#FLG?" (at 52.07 100.965 0)
+    (property "Reference" "#FLG0201" (at 52.07 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 52.07 99.06 0)
@@ -1584,7 +1510,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "#FLG?") (unit 1)
+          (reference "#FLG0201") (unit 1)
         )
       )
     )
@@ -1593,7 +1519,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 69.85 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bb80b0c)
-    (property "Reference" "#FLG?" (at 69.85 52.705 0)
+    (property "Reference" "#FLG0202" (at 69.85 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 69.85 50.8 0)
@@ -1609,7 +1535,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "#FLG?") (unit 1)
+          (reference "#FLG0202") (unit 1)
         )
       )
     )
@@ -1618,7 +1544,7 @@
   (symbol (lib_id "Incrementor-rescue:D_TVS_ALT-Device") (at 69.85 62.23 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bc52dc5)
-    (property "Reference" "D?" (at 71.8566 61.0616 90)
+    (property "Reference" "D201" (at 71.8566 61.0616 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "24V" (at 71.8566 63.373 90)
@@ -1641,7 +1567,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "D?") (unit 1)
+          (reference "D201") (unit 1)
         )
       )
     )
@@ -1650,7 +1576,7 @@
   (symbol (lib_id "power:GND") (at 69.85 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bc52ed8)
-    (property "Reference" "#PWR?" (at 69.85 72.39 0)
+    (property "Reference" "#PWR0204" (at 69.85 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.85 69.85 0)
@@ -1666,7 +1592,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
@@ -1675,7 +1601,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_Switch") (at 40.64 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bf0e9c8)
-    (property "Reference" "J?" (at 40.64 54.356 0)
+    (property "Reference" "J201" (at 40.64 54.356 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "+12V IN" (at 40.64 64.77 0)
@@ -1696,7 +1622,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "J?") (unit 1)
+          (reference "J201") (unit 1)
         )
       )
     )
@@ -1705,7 +1631,7 @@
   (symbol (lib_id "power:GND") (at 49.53 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005bf10b9d)
-    (property "Reference" "#PWR?" (at 49.53 69.85 0)
+    (property "Reference" "#PWR0202" (at 49.53 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 67.31 0)
@@ -1721,7 +1647,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -1748,8 +1674,8 @@
     (pin "1" (uuid 6020a6b9-3f96-4a71-bf52-c099d3d82157))
     (pin "10" (uuid 1a5e8c2b-e549-4b93-a21d-46a6259cc015))
     (pin "11" (uuid 946f3b05-9a9f-4acc-bac9-552496769f2d))
-    (pin "12" (uuid 3cc33c05-0030-4757-8831-c4159dc50926))
-    (pin "12" (uuid 3cc33c05-0030-4757-8831-c4159dc50926))
+    (pin "12" (uuid 3cc33c05-0030-4757-8831-c4159dc50927))
+    (pin "12" (uuid 3cc33c05-0030-4757-8831-c4159dc50927))
     (pin "13" (uuid 2db24703-c21e-4a4e-91dc-18b6ab399033))
     (pin "14" (uuid 1695741e-1bfa-4e91-81fd-c2483e2684c1))
     (pin "15" (uuid 71f2f2b3-f0a0-44d6-bed8-2a41f1ce2dd9))
@@ -1776,7 +1702,7 @@
           (reference "U?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "U?") (unit 1)
+          (reference "U201") (unit 1)
         )
       )
     )
@@ -1785,7 +1711,7 @@
   (symbol (lib_id "power:GND") (at 142.24 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dd8eb42)
-    (property "Reference" "#PWR?" (at 142.24 138.43 0)
+    (property "Reference" "#PWR0206" (at 142.24 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 135.89 0)
@@ -1801,76 +1727,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Custom_Library:R_Custom") (at 167.64 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005dd9ec0b)
-    (property "Reference" "R?" (at 165.354 97.79 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "10k" (at 167.64 99.568 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistors_SMD:R_0402" (at 167.64 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 167.64 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "display_footprint" "0402" (at 170.18 96.012 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Tolerance" "1%" (at 170.18 98.552 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Wattage" "1/16W" (at 170.18 101.092 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Digi-Key PN" "RMCF0402FT10K0CT-ND" (at 175.26 87.63 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (pin "1" (uuid 683d1937-6c3c-44b0-a311-8395a9e9509e))
-    (pin "2" (uuid bfc75b42-e653-4371-aa1d-d172eb1b33fc))
-    (instances
-      (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
-          (reference "R?") (unit 1)
-        )
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
-          (reference "R?") (unit 1)
-        )
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "R?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 167.64 93.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005dda0373)
-    (property "Reference" "#PWR?" (at 167.64 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 167.64 90.424 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 167.64 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 167.64 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c805c905-412e-4da1-80d1-90d5e41fcd7e))
-    (instances
-      (project "Stopwatch"
-        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -1914,7 +1771,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "R?") (unit 1)
+          (reference "R202") (unit 1)
         )
       )
     )
@@ -1958,7 +1815,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "R?") (unit 1)
+          (reference "R201") (unit 1)
         )
       )
     )
@@ -2002,7 +1859,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "R?") (unit 1)
+          (reference "R203") (unit 1)
         )
       )
     )
@@ -2046,7 +1903,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "R?") (unit 1)
+          (reference "R204") (unit 1)
         )
       )
     )
@@ -2055,7 +1912,7 @@
   (symbol (lib_id "Custom_Library:TP_Pad") (at 167.64 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ddddb66)
-    (property "Reference" "TP?" (at 167.64 50.8 0)
+    (property "Reference" "TP203" (at 167.64 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TP_Pad" (at 167.64 50.8 0)
@@ -2071,7 +1928,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "TP?") (unit 1)
+          (reference "TP203") (unit 1)
         )
       )
     )
@@ -2080,7 +1937,7 @@
   (symbol (lib_id "Custom_Library:TP_Pad") (at 96.52 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ddddfd1)
-    (property "Reference" "TP?" (at 96.52 50.8 0)
+    (property "Reference" "TP202" (at 96.52 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TP_Pad" (at 96.52 50.8 0)
@@ -2096,7 +1953,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "TP?") (unit 1)
+          (reference "TP202") (unit 1)
         )
       )
     )
@@ -2105,7 +1962,7 @@
   (symbol (lib_id "Custom_Library:TP") (at 35.56 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dde21c0)
-    (property "Reference" "TP?" (at 35.56 99.06 0)
+    (property "Reference" "TP201" (at 35.56 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TP" (at 35.56 99.06 0)
@@ -2124,7 +1981,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "TP?") (unit 1)
+          (reference "TP201") (unit 1)
         )
       )
     )
@@ -2133,7 +1990,7 @@
   (symbol (lib_id "power:GND") (at 35.56 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dde2aae)
-    (property "Reference" "#PWR?" (at 35.56 109.22 0)
+    (property "Reference" "#PWR0201" (at 35.56 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 35.56 106.68 0)
@@ -2149,7 +2006,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -2158,7 +2015,7 @@
   (symbol (lib_id "Custom_Library:C_Custom") (at 116.84 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005deadb5a)
-    (property "Reference" "C?" (at 117.475 109.22 0)
+    (property "Reference" "C201" (at 117.475 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 117.475 114.3 0)
@@ -2170,7 +2027,7 @@
     (property "Datasheet" "" (at 117.475 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "display_footprint" "" (at 113.03 109.22 0)
+    (property "display_footprint" "0402" (at 113.03 109.22 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Voltage" "50V" (at 113.03 111.76 0)
@@ -2187,7 +2044,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "C?") (unit 1)
+          (reference "C201") (unit 1)
         )
       )
     )
@@ -2196,7 +2053,7 @@
   (symbol (lib_id "Mechanical:Housing") (at 41.148 80.772 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005df2ea26)
-    (property "Reference" "N?" (at 44.958 80.772 0)
+    (property "Reference" "N201" (at 44.958 80.772 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "+12V 1A Power Supply" (at 44.958 82.677 0)
@@ -2214,7 +2071,137 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "N?") (unit 1)
+          (reference "N201") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Custom_Library:R_Custom") (at 167.64 99.06 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid bbc28034-5f2d-44df-95dd-dec63f1af36c)
+    (property "Reference" "R?" (at 165.608 99.06 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "13k" (at 167.64 99.06 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistors_SMD:R_0402" (at 167.64 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 167.64 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "display_footprint" "0402" (at 170.18 97.028 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "1%" (at 170.18 99.06 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Wattage" "1/16W" (at 170.434 101.092 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Digi-Key PN" "RMCF0402FT13K0CT-ND" (at 167.64 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2b362fdd-4b45-4874-a441-748017454dbd))
+    (pin "2" (uuid d25817cd-58ce-470b-9205-b867c30a55a1))
+    (instances
+      (project "Thermal_Camera"
+        (path "/4bd21e0b-5408-4b93-866e-c82ac5b31fa9/83e737bd-36e4-4450-be79-c684a42552df"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Analog_Clock"
+        (path "/4c0a1b3a-0b35-42a0-8d96-e340db30946e/00000000-0000-0000-0000-00005bb27bf7"
+          (reference "R?") (unit 1)
+        )
+        (path "/4c0a1b3a-0b35-42a0-8d96-e340db30946e/00000000-0000-0000-0000-00005c1e3a08"
+          (reference "R?") (unit 1)
+        )
+        (path "/4c0a1b3a-0b35-42a0-8d96-e340db30946e/00000000-0000-0000-0000-00005cb7718d"
+          (reference "R?") (unit 1)
+        )
+        (path "/4c0a1b3a-0b35-42a0-8d96-e340db30946e/00000000-0000-0000-0000-00005e0f263a"
+          (reference "R?") (unit 1)
+        )
+        (path "/4c0a1b3a-0b35-42a0-8d96-e340db30946e/00000000-0000-0000-0000-00005e98cf45"
+          (reference "R?") (unit 1)
+        )
+        (path "/4c0a1b3a-0b35-42a0-8d96-e340db30946e/00000000-0000-0000-0000-00005e939cff"
+          (reference "R?") (unit 1)
+        )
+        (path "/4c0a1b3a-0b35-42a0-8d96-e340db30946e/00000000-0000-0000-0000-00005c1de17a"
+          (reference "R?") (unit 1)
+        )
+        (path "/4c0a1b3a-0b35-42a0-8d96-e340db30946e/00000000-0000-0000-0000-00005e0dc082"
+          (reference "R?") (unit 1)
+        )
+        (path "/4c0a1b3a-0b35-42a0-8d96-e340db30946e/00000000-0000-0000-0000-00005f280e04"
+          (reference "R?") (unit 1)
+        )
+        (path "/4c0a1b3a-0b35-42a0-8d96-e340db30946e/00000000-0000-0000-0000-00005d779ae1"
+          (reference "R?") (unit 1)
+        )
+        (path "/4c0a1b3a-0b35-42a0-8d96-e340db30946e/00000000-0000-0000-0000-00005bb27ba3"
+          (reference "R?") (unit 1)
+        )
+        (path "/4c0a1b3a-0b35-42a0-8d96-e340db30946e/00000000-0000-0000-0000-00005e939d31"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "R206") (unit 1)
+        )
+      )
+      (project "USB_Hub"
+        (path "/e85aac8c-404c-45dd-bda3-1057cae83baf/00000000-0000-0000-0000-00005f41a7ad"
+          (reference "R?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Custom_Library:R_Custom") (at 167.64 110.49 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid bfe3f274-b874-400f-bd66-640f49e102c7)
+    (property "Reference" "R?" (at 165.354 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "5.11k" (at 167.64 110.49 90)
+      (effects (font (size 1.016 1.016)))
+    )
+    (property "Footprint" "Resistors_SMD:R_0402" (at 167.64 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 167.64 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "display_footprint" "0402" (at 170.18 108.712 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Tolerance" "1%" (at 170.18 111.252 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Wattage" "1/16W" (at 170.18 113.792 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Digi-Key PN" "RMCF0402FT5K11CT-ND" (at 175.26 100.33 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid 04d53a2d-384e-4fda-8d7e-4a4c8ac0d794))
+    (pin "2" (uuid aa02c9b0-b6c9-4e6b-96f7-50811f0cd11d))
+    (instances
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6c0d23"
+          (reference "R?") (unit 1)
+        )
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
+          (reference "R?") (unit 1)
+        )
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "R207") (unit 1)
         )
       )
     )
@@ -2258,7 +2245,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "R?") (unit 1)
+          (reference "R208") (unit 1)
         )
       )
     )
@@ -2302,7 +2289,87 @@
           (reference "R?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
-          (reference "R?") (unit 1)
+          (reference "R205") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 167.64 95.25 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ed86862c-889a-46a5-92d5-32a32962cbba)
+    (property "Reference" "#PWR?" (at 167.64 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 167.64 91.694 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 167.64 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 167.64 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 089472c3-6ce6-4c6a-949f-fe77c532445e))
+    (instances
+      (project "Thermal_Camera"
+        (path "/4bd21e0b-5408-4b93-866e-c82ac5b31fa9/83e737bd-36e4-4450-be79-c684a42552df"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Analog_Clock"
+        (path "/4c0a1b3a-0b35-42a0-8d96-e340db30946e/00000000-0000-0000-0000-00005e939cff"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "#PWR0209") (unit 1)
+        )
+      )
+      (project "USB_Hub"
+        (path "/e85aac8c-404c-45dd-bda3-1057cae83baf/00000000-0000-0000-0000-00005f41a7ad"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 167.64 114.3 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f3d3a10b-f90f-407b-b129-d2a0ce63a2a1)
+    (property "Reference" "#PWR?" (at 167.64 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 167.64 118.11 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 167.64 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 167.64 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f7775fc7-4798-4201-8584-7e27ee06004c))
+    (instances
+      (project "Thermal_Camera"
+        (path "/4bd21e0b-5408-4b93-866e-c82ac5b31fa9/83e737bd-36e4-4450-be79-c684a42552df"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Analog_Clock"
+        (path "/4c0a1b3a-0b35-42a0-8d96-e340db30946e/00000000-0000-0000-0000-00005e939cff"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Stopwatch"
+        (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77a516"
+          (reference "#PWR0210") (unit 1)
+        )
+      )
+      (project "USB_Hub"
+        (path "/e85aac8c-404c-45dd-bda3-1057cae83baf/00000000-0000-0000-0000-00005f41a7ad"
+          (reference "#PWR?") (unit 1)
         )
       )
     )

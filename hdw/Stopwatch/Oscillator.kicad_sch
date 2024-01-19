@@ -859,7 +859,7 @@
   (symbol (lib_id "power:GND") (at 43.18 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d6c2662)
-    (property "Reference" "#PWR?" (at 43.18 101.6 0)
+    (property "Reference" "#PWR0405" (at 43.18 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 99.06 0)
@@ -875,7 +875,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0405") (unit 1)
         )
       )
     )
@@ -884,7 +884,7 @@
   (symbol (lib_id "74xx:74HC4024") (at 137.16 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d6c3d8a)
-    (property "Reference" "U?" (at 130.81 74.93 0)
+    (property "Reference" "U402" (at 130.81 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CD4024" (at 143.51 74.93 0)
@@ -916,7 +916,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "U?") (unit 1)
+          (reference "U402") (unit 1)
         )
       )
     )
@@ -925,7 +925,7 @@
   (symbol (lib_id "Custom_Library:C_Custom") (at 33.02 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d6ca24b)
-    (property "Reference" "C?" (at 33.655 114.3 0)
+    (property "Reference" "C401" (at 33.655 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 33.655 119.38 0)
@@ -954,7 +954,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "C?") (unit 1)
+          (reference "C401") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "C?") (unit 1)
@@ -966,7 +966,7 @@
   (symbol (lib_id "Custom_Library:C_Custom") (at 41.91 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d6cae3a)
-    (property "Reference" "C?" (at 42.545 114.3 0)
+    (property "Reference" "C402" (at 42.545 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 42.545 119.38 0)
@@ -978,7 +978,7 @@
     (property "Datasheet" "" (at 42.545 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "display_footprint" "" (at 38.1 114.3 0)
+    (property "display_footprint" "0402" (at 38.1 114.3 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Voltage" "50V" (at 38.1 116.84 0)
@@ -995,7 +995,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "C?") (unit 1)
+          (reference "C402") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "C?") (unit 1)
@@ -1007,7 +1007,7 @@
   (symbol (lib_id "Custom_Library:C_Custom") (at 50.8 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d6cc1a6)
-    (property "Reference" "C?" (at 51.435 114.3 0)
+    (property "Reference" "C403" (at 51.435 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 51.435 119.38 0)
@@ -1036,7 +1036,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "C?") (unit 1)
+          (reference "C403") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "C?") (unit 1)
@@ -1048,7 +1048,7 @@
   (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 41.91 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d6ccd89)
-    (property "Reference" "#PWR?" (at 41.91 114.3 0)
+    (property "Reference" "#PWR0402" (at 41.91 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 41.91 106.934 0)
@@ -1064,7 +1064,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0402") (unit 1)
         )
       )
     )
@@ -1073,7 +1073,7 @@
   (symbol (lib_id "power:GND") (at 41.91 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d6cd75a)
-    (property "Reference" "#PWR?" (at 41.91 129.54 0)
+    (property "Reference" "#PWR0403" (at 41.91 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.91 127 0)
@@ -1089,7 +1089,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0403") (unit 1)
         )
       )
     )
@@ -1098,7 +1098,7 @@
   (symbol (lib_id "Custom_Library:R_Custom") (at 97.79 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d6cfee6)
-    (property "Reference" "R?" (at 100.33 93.726 0)
+    (property "Reference" "R401" (at 100.33 93.726 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 97.79 99.568 90)
@@ -1127,7 +1127,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "R?") (unit 1)
+          (reference "R401") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
@@ -1139,7 +1139,7 @@
   (symbol (lib_id "power:GND") (at 97.79 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d6cfeec)
-    (property "Reference" "#PWR?" (at 97.79 107.95 0)
+    (property "Reference" "#PWR0406" (at 97.79 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.917 105.9942 0)
@@ -1155,7 +1155,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0406") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "#PWR?") (unit 1)
@@ -1167,7 +1167,7 @@
   (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 137.16 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d6d3b37)
-    (property "Reference" "#PWR?" (at 137.16 77.47 0)
+    (property "Reference" "#PWR0411" (at 137.16 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 137.16 70.104 0)
@@ -1183,7 +1183,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0411") (unit 1)
         )
       )
     )
@@ -1192,7 +1192,7 @@
   (symbol (lib_id "power:GND") (at 137.16 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d6d3ff5)
-    (property "Reference" "#PWR?" (at 137.16 105.41 0)
+    (property "Reference" "#PWR0412" (at 137.16 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 102.87 0)
@@ -1208,7 +1208,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0412") (unit 1)
         )
       )
     )
@@ -1217,7 +1217,7 @@
   (symbol (lib_id "power:GND") (at 115.57 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d6db853)
-    (property "Reference" "#PWR?" (at 115.57 107.95 0)
+    (property "Reference" "#PWR0408" (at 115.57 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.697 105.9942 0)
@@ -1233,7 +1233,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0408") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "#PWR?") (unit 1)
@@ -1245,7 +1245,7 @@
   (symbol (lib_id "Custom_Library:R_Custom") (at 115.57 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d6db85e)
-    (property "Reference" "R?" (at 118.11 93.726 0)
+    (property "Reference" "R403" (at 118.11 93.726 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 115.57 99.568 90)
@@ -1274,7 +1274,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "R?") (unit 1)
+          (reference "R403") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
@@ -1286,7 +1286,7 @@
   (symbol (lib_id "Custom_Library:C_Custom") (at 137.16 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d6ec6fd)
-    (property "Reference" "C?" (at 137.795 110.49 0)
+    (property "Reference" "C404" (at 137.795 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 137.795 115.57 0)
@@ -1315,7 +1315,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "C?") (unit 1)
+          (reference "C404") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "C?") (unit 1)
@@ -1327,7 +1327,7 @@
   (symbol (lib_id "power:GND") (at 137.16 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d6ec724)
-    (property "Reference" "#PWR?" (at 137.16 123.19 0)
+    (property "Reference" "#PWR0414" (at 137.16 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 120.65 0)
@@ -1343,7 +1343,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0414") (unit 1)
         )
       )
     )
@@ -1352,7 +1352,7 @@
   (symbol (lib_id "4xxx:4040") (at 224.79 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d7081f1)
-    (property "Reference" "U?" (at 217.17 76.2 0)
+    (property "Reference" "U403" (at 217.17 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CD4040" (at 217.17 111.76 0)
@@ -1386,7 +1386,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "U?") (unit 1)
+          (reference "U403") (unit 1)
         )
       )
     )
@@ -1395,7 +1395,7 @@
   (symbol (lib_id "power:GND") (at 224.79 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d708dcc)
-    (property "Reference" "#PWR?" (at 224.79 121.92 0)
+    (property "Reference" "#PWR0421" (at 224.79 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 224.79 119.38 0)
@@ -1411,7 +1411,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0421") (unit 1)
         )
       )
     )
@@ -1420,7 +1420,7 @@
   (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 224.79 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d7092a9)
-    (property "Reference" "#PWR?" (at 224.79 76.2 0)
+    (property "Reference" "#PWR0420" (at 224.79 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 224.79 68.834 0)
@@ -1436,7 +1436,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0420") (unit 1)
         )
       )
     )
@@ -1445,7 +1445,7 @@
   (symbol (lib_id "Custom_Library:R_Custom") (at 200.66 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d70b503)
-    (property "Reference" "R?" (at 203.2 92.456 0)
+    (property "Reference" "R406" (at 203.2 92.456 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 200.66 98.298 90)
@@ -1474,7 +1474,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "R?") (unit 1)
+          (reference "R406") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
@@ -1486,7 +1486,7 @@
   (symbol (lib_id "power:GND") (at 200.66 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d70b509)
-    (property "Reference" "#PWR?" (at 200.66 106.68 0)
+    (property "Reference" "#PWR0419" (at 200.66 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.787 104.7242 0)
@@ -1502,7 +1502,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0419") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "#PWR?") (unit 1)
@@ -1514,7 +1514,7 @@
   (symbol (lib_id "Custom_Library:R_Custom") (at 182.88 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d70b513)
-    (property "Reference" "R?" (at 185.42 92.456 0)
+    (property "Reference" "R405" (at 185.42 92.456 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 182.88 98.298 90)
@@ -1543,7 +1543,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "R?") (unit 1)
+          (reference "R405") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "R?") (unit 1)
@@ -1555,7 +1555,7 @@
   (symbol (lib_id "power:GND") (at 182.88 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d70b51a)
-    (property "Reference" "#PWR?" (at 182.88 106.68 0)
+    (property "Reference" "#PWR0418" (at 182.88 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 183.007 104.7242 0)
@@ -1571,7 +1571,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0418") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "#PWR?") (unit 1)
@@ -1583,7 +1583,7 @@
   (symbol (lib_id "Custom_Library:C_Custom") (at 224.79 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d714235)
-    (property "Reference" "C?" (at 225.425 129.54 0)
+    (property "Reference" "C406" (at 225.425 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 225.425 134.62 0)
@@ -1612,7 +1612,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "C?") (unit 1)
+          (reference "C406") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d6b2673"
           (reference "C?") (unit 1)
@@ -1624,7 +1624,7 @@
   (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 224.79 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d71424f)
-    (property "Reference" "#PWR?" (at 224.79 132.08 0)
+    (property "Reference" "#PWR0422" (at 224.79 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 224.79 124.714 0)
@@ -1640,7 +1640,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0422") (unit 1)
         )
       )
     )
@@ -1649,7 +1649,7 @@
   (symbol (lib_id "power:GND") (at 224.79 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005df4a6e1)
-    (property "Reference" "#PWR?" (at 224.79 142.24 0)
+    (property "Reference" "#PWR0423" (at 224.79 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 224.79 139.7 0)
@@ -1665,7 +1665,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0423") (unit 1)
         )
       )
     )
@@ -1674,7 +1674,7 @@
   (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 137.16 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005df4c94c)
-    (property "Reference" "#PWR?" (at 137.16 113.03 0)
+    (property "Reference" "#PWR0413" (at 137.16 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 137.16 105.664 0)
@@ -1690,7 +1690,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0413") (unit 1)
         )
       )
     )
@@ -1699,7 +1699,7 @@
   (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 43.18 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005df7e425)
-    (property "Reference" "#PWR?" (at 43.18 83.82 0)
+    (property "Reference" "#PWR0404" (at 43.18 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 43.18 76.454 0)
@@ -1715,7 +1715,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0404") (unit 1)
         )
       )
     )
@@ -1724,7 +1724,7 @@
   (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 33.02 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005df7e718)
-    (property "Reference" "#PWR?" (at 33.02 90.17 0)
+    (property "Reference" "#PWR0401" (at 33.02 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 33.02 82.804 0)
@@ -1740,7 +1740,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0401") (unit 1)
         )
       )
     )
@@ -1749,13 +1749,13 @@
   (symbol (lib_id "Custom_Library:ECS-327KE") (at 43.18 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e07b017)
-    (property "Reference" "X?" (at 38.1 81.28 0)
+    (property "Reference" "X401" (at 38.1 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ECS-327KE" (at 44.45 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 60.96 96.52 0)
+    (property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" (at 60.96 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 40.64 87.63 0)
@@ -1771,7 +1771,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "X?") (unit 1)
+          (reference "X401") (unit 1)
         )
       )
     )
@@ -1799,10 +1799,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR0417") (unit 1)
         )
       )
     )
@@ -1811,7 +1811,7 @@
   (symbol (lib_id "Custom_Library:C_Custom") (at 137.16 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2665e461-5713-4a59-b602-49cc06ef585b)
-    (property "Reference" "C?" (at 137.795 143.51 0)
+    (property "Reference" "C405" (at 137.795 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 137.795 148.59 0)
@@ -1840,7 +1840,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "C?") (unit 1)
+          (reference "C405") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d73948c"
           (reference "C?") (unit 1)
@@ -1858,7 +1858,7 @@
   (symbol (lib_id "power:GND") (at 118.11 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 385d8f14-cbbf-473b-b90d-506bc79e29a3)
-    (property "Reference" "#PWR017" (at 118.11 167.64 0)
+    (property "Reference" "#PWR?" (at 118.11 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 165.1 0)
@@ -1874,10 +1874,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR0410") (unit 1)
         )
       )
     )
@@ -1892,7 +1892,7 @@
     (property "Value" "74LVC1G97" (at 119.634 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 119.38 158.75 0)
+    (property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm" (at 119.38 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf" (at 119.38 158.75 0)
@@ -1913,7 +1913,7 @@
           (reference "U?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "U?") (unit 1)
+          (reference "U401") (unit 1)
         )
       )
     )
@@ -1957,7 +1957,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "R?") (unit 1)
+          (reference "R404") (unit 1)
         )
       )
     )
@@ -1985,10 +1985,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR0407") (unit 1)
         )
       )
     )
@@ -1997,7 +1997,7 @@
   (symbol (lib_id "power:+3.3V") (at 118.11 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5058626-d245-407c-8eda-3cf7d7e701bb)
-    (property "Reference" "#PWR016" (at 118.11 160.02 0)
+    (property "Reference" "#PWR?" (at 118.11 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 118.11 152.654 0)
@@ -2013,10 +2013,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0409") (unit 1)
         )
       )
     )
@@ -2044,10 +2044,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR0416") (unit 1)
         )
       )
     )
@@ -2075,10 +2075,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0415") (unit 1)
         )
       )
     )
@@ -2122,7 +2122,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d784813"
-          (reference "R?") (unit 1)
+          (reference "R402") (unit 1)
         )
       )
     )

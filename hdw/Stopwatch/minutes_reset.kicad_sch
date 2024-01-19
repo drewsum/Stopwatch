@@ -845,10 +845,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR01415") (unit 1)
         )
       )
     )
@@ -892,7 +892,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "R?") (unit 1)
+          (reference "R1402") (unit 1)
         )
       )
     )
@@ -907,7 +907,7 @@
     (property "Value" "74LVC1G97" (at 205.994 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 205.74 39.37 0)
+    (property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm" (at 205.74 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf" (at 205.74 39.37 0)
@@ -928,7 +928,7 @@
           (reference "U?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "U?") (unit 1)
+          (reference "U1407") (unit 1)
         )
       )
     )
@@ -972,7 +972,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "R?") (unit 1)
+          (reference "R1407") (unit 1)
         )
       )
     )
@@ -1022,7 +1022,7 @@
           (reference "C?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "C?") (unit 1)
+          (reference "C1402") (unit 1)
         )
       )
     )
@@ -1050,10 +1050,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR01430") (unit 1)
         )
       )
     )
@@ -1062,7 +1062,7 @@
   (symbol (lib_id "power:+3.3V") (at 50.8 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 21734218-b34e-412e-b704-d7bbe5b3a0d2)
-    (property "Reference" "#PWR05" (at 50.8 83.82 0)
+    (property "Reference" "#PWR?" (at 50.8 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 50.8 76.454 0)
@@ -1078,10 +1078,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR01403") (unit 1)
         )
       )
     )
@@ -1109,10 +1109,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR01422") (unit 1)
         )
       )
     )
@@ -1140,10 +1140,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR01423") (unit 1)
         )
       )
     )
@@ -1152,7 +1152,7 @@
   (symbol (lib_id "power:+3.3V") (at 50.8 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36f9c356-b41d-4cba-8665-685f02d22ec3)
-    (property "Reference" "#PWR02" (at 50.8 40.64 0)
+    (property "Reference" "#PWR?" (at 50.8 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 50.8 33.274 0)
@@ -1168,10 +1168,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR01401") (unit 1)
         )
       )
     )
@@ -1180,7 +1180,7 @@
   (symbol (lib_id "power:GND") (at 50.8 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3afbf966-97ad-4663-9a87-a9a02e6655d3)
-    (property "Reference" "#PWR08" (at 50.8 134.62 0)
+    (property "Reference" "#PWR?" (at 50.8 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 132.08 0)
@@ -1196,10 +1196,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR01406") (unit 1)
         )
       )
     )
@@ -1214,7 +1214,7 @@
     (property "Value" "74LVC1G97" (at 52.324 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 52.07 82.55 0)
+    (property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm" (at 52.07 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf" (at 52.07 82.55 0)
@@ -1235,7 +1235,7 @@
           (reference "U?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "U?") (unit 1)
+          (reference "U1402") (unit 1)
         )
       )
     )
@@ -1244,7 +1244,7 @@
   (symbol (lib_id "power:GND") (at 204.47 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5180581f-b80e-4a62-907e-9792c00dd22b)
-    (property "Reference" "#PWR032" (at 204.47 48.26 0)
+    (property "Reference" "#PWR?" (at 204.47 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 204.47 45.72 0)
@@ -1260,10 +1260,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR01432") (unit 1)
         )
       )
     )
@@ -1291,10 +1291,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR01433") (unit 1)
         )
       )
     )
@@ -1344,7 +1344,7 @@
           (reference "C?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "C?") (unit 1)
+          (reference "C1406") (unit 1)
         )
       )
     )
@@ -1359,7 +1359,7 @@
     (property "Value" "74LVC1G97" (at 103.124 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 102.87 125.73 0)
+    (property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm" (at 102.87 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf" (at 102.87 125.73 0)
@@ -1380,7 +1380,7 @@
           (reference "U?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "U?") (unit 1)
+          (reference "U1405") (unit 1)
         )
       )
     )
@@ -1424,7 +1424,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "R?") (unit 1)
+          (reference "R1401") (unit 1)
         )
       )
     )
@@ -1439,7 +1439,7 @@
     (property "Value" "74LVC1G97" (at 52.324 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 52.07 39.37 0)
+    (property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm" (at 52.07 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf" (at 52.07 39.37 0)
@@ -1460,7 +1460,7 @@
           (reference "U?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "U?") (unit 1)
+          (reference "U1401") (unit 1)
         )
       )
     )
@@ -1488,10 +1488,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR01425") (unit 1)
         )
       )
     )
@@ -1519,10 +1519,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR01435") (unit 1)
         )
       )
     )
@@ -1572,7 +1572,7 @@
           (reference "C?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "C?") (unit 1)
+          (reference "C1407") (unit 1)
         )
       )
     )
@@ -1616,7 +1616,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "R?") (unit 1)
+          (reference "R1405") (unit 1)
         )
       )
     )
@@ -1644,10 +1644,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR01410") (unit 1)
         )
       )
     )
@@ -1675,10 +1675,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR01421") (unit 1)
         )
       )
     )
@@ -1687,7 +1687,7 @@
   (symbol (lib_id "power:GND") (at 50.8 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 895b94e6-de81-43e4-9c34-e2d353a66e3b)
-    (property "Reference" "#PWR01" (at 50.8 48.26 0)
+    (property "Reference" "#PWR?" (at 50.8 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 45.72 0)
@@ -1703,10 +1703,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR01402") (unit 1)
         )
       )
     )
@@ -1715,7 +1715,7 @@
   (symbol (lib_id "power:GND") (at 101.6 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95804196-6125-4081-95f5-e513022b0a1a)
-    (property "Reference" "#PWR022" (at 101.6 134.62 0)
+    (property "Reference" "#PWR?" (at 101.6 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 132.08 0)
@@ -1731,10 +1731,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR01419") (unit 1)
         )
       )
     )
@@ -1762,10 +1762,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR01408") (unit 1)
         )
       )
     )
@@ -1793,10 +1793,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR01434") (unit 1)
         )
       )
     )
@@ -1824,10 +1824,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR01420") (unit 1)
         )
       )
     )
@@ -1855,10 +1855,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR01407") (unit 1)
         )
       )
     )
@@ -1886,10 +1886,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR01412") (unit 1)
         )
       )
     )
@@ -1898,7 +1898,7 @@
   (symbol (lib_id "power:+3.3V") (at 153.67 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aed3f8aa-caa5-475e-95ba-99560ee78b5c)
-    (property "Reference" "#PWR026" (at 153.67 40.64 0)
+    (property "Reference" "#PWR?" (at 153.67 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 153.67 33.274 0)
@@ -1914,10 +1914,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR01426") (unit 1)
         )
       )
     )
@@ -1967,7 +1967,7 @@
           (reference "C?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "C?") (unit 1)
+          (reference "C1405") (unit 1)
         )
       )
     )
@@ -2017,7 +2017,7 @@
           (reference "C?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "C?") (unit 1)
+          (reference "C1403") (unit 1)
         )
       )
     )
@@ -2026,7 +2026,7 @@
   (symbol (lib_id "power:GND") (at 153.67 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc54241a-f6d9-4c5b-b4e5-3234d11c36a4)
-    (property "Reference" "#PWR027" (at 153.67 48.26 0)
+    (property "Reference" "#PWR?" (at 153.67 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 45.72 0)
@@ -2042,10 +2042,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR01427") (unit 1)
         )
       )
     )
@@ -2054,7 +2054,7 @@
   (symbol (lib_id "power:GND") (at 101.6 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0939ec2-b2e7-4d92-b82d-cd207396c7b5)
-    (property "Reference" "#PWR017" (at 101.6 48.26 0)
+    (property "Reference" "#PWR?" (at 101.6 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 45.72 0)
@@ -2070,10 +2070,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR01417") (unit 1)
         )
       )
     )
@@ -2088,7 +2088,7 @@
     (property "Value" "74LVC1G97" (at 103.124 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 102.87 39.37 0)
+    (property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm" (at 102.87 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf" (at 102.87 39.37 0)
@@ -2109,7 +2109,7 @@
           (reference "U?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "U?") (unit 1)
+          (reference "U1404") (unit 1)
         )
       )
     )
@@ -2137,10 +2137,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR01424") (unit 1)
         )
       )
     )
@@ -2149,7 +2149,7 @@
   (symbol (lib_id "power:+3.3V") (at 204.47 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4b5758c-4ff5-4cff-8338-6a5b22e2f1e6)
-    (property "Reference" "#PWR031" (at 204.47 40.64 0)
+    (property "Reference" "#PWR?" (at 204.47 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 204.47 33.274 0)
@@ -2165,10 +2165,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR01431") (unit 1)
         )
       )
     )
@@ -2183,7 +2183,7 @@
     (property "Value" "74LVC1G97" (at 52.324 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 52.07 125.73 0)
+    (property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm" (at 52.07 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf" (at 52.07 125.73 0)
@@ -2204,7 +2204,7 @@
           (reference "U?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "U?") (unit 1)
+          (reference "U1403") (unit 1)
         )
       )
     )
@@ -2254,7 +2254,7 @@
           (reference "C?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "C?") (unit 1)
+          (reference "C1401") (unit 1)
         )
       )
     )
@@ -2282,10 +2282,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR01429") (unit 1)
         )
       )
     )
@@ -2313,10 +2313,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR01413") (unit 1)
         )
       )
     )
@@ -2331,7 +2331,7 @@
     (property "Value" "74LVC1G97" (at 155.194 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 154.94 39.37 0)
+    (property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm" (at 154.94 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf" (at 154.94 39.37 0)
@@ -2352,7 +2352,7 @@
           (reference "U?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "U?") (unit 1)
+          (reference "U1406") (unit 1)
         )
       )
     )
@@ -2396,7 +2396,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "R?") (unit 1)
+          (reference "R1406") (unit 1)
         )
       )
     )
@@ -2405,7 +2405,7 @@
   (symbol (lib_id "power:GND") (at 50.8 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e15ec8e4-aba6-43de-a1d5-ac8cf50afaa2)
-    (property "Reference" "#PWR06" (at 50.8 91.44 0)
+    (property "Reference" "#PWR?" (at 50.8 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 88.9 0)
@@ -2421,10 +2421,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR01404") (unit 1)
         )
       )
     )
@@ -2433,7 +2433,7 @@
   (symbol (lib_id "power:+3.3V") (at 101.6 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e996fddd-f4ab-4c88-a2ff-859c9f628036)
-    (property "Reference" "#PWR016" (at 101.6 40.64 0)
+    (property "Reference" "#PWR?" (at 101.6 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 101.6 33.274 0)
@@ -2449,10 +2449,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR01416") (unit 1)
         )
       )
     )
@@ -2496,7 +2496,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "R?") (unit 1)
+          (reference "R1404") (unit 1)
         )
       )
     )
@@ -2505,7 +2505,7 @@
   (symbol (lib_id "power:+3.3V") (at 50.8 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f12e30af-b1aa-47e3-b7c3-38e6e35d58e2)
-    (property "Reference" "#PWR07" (at 50.8 127 0)
+    (property "Reference" "#PWR?" (at 50.8 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 50.8 119.634 0)
@@ -2521,10 +2521,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR01405") (unit 1)
         )
       )
     )
@@ -2568,7 +2568,7 @@
           (reference "R?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "R?") (unit 1)
+          (reference "R1403") (unit 1)
         )
       )
     )
@@ -2577,7 +2577,7 @@
   (symbol (lib_id "power:+3.3V") (at 101.6 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3b8ce5a-38ae-444e-bd0d-74929651f0f5)
-    (property "Reference" "#PWR021" (at 101.6 127 0)
+    (property "Reference" "#PWR?" (at 101.6 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 101.6 119.634 0)
@@ -2593,10 +2593,10 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR01418") (unit 1)
         )
       )
     )
@@ -2624,10 +2624,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR01414") (unit 1)
         )
       )
     )
@@ -2655,10 +2655,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR01428") (unit 1)
         )
       )
     )
@@ -2686,10 +2686,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR01411") (unit 1)
         )
       )
     )
@@ -2717,10 +2717,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/d8fe7721-a28f-48c3-966f-30ad89b28e18"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR01409") (unit 1)
         )
       )
     )
@@ -2770,7 +2770,7 @@
           (reference "C?") (unit 1)
         )
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/9a6278e5-7c9a-47c3-8cbd-b4afa571ccff"
-          (reference "C?") (unit 1)
+          (reference "C1404") (unit 1)
         )
       )
     )

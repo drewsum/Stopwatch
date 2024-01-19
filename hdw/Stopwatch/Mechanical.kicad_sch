@@ -310,7 +310,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 42.164 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dede01a)
-    (property "Reference" "H?" (at 42.164 39.37 0)
+    (property "Reference" "H1501" (at 42.164 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3mm" (at 42.164 41.275 0)
@@ -325,7 +325,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77c1ea"
-          (reference "H?") (unit 1)
+          (reference "H1501") (unit 1)
         )
       )
     )
@@ -334,7 +334,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 54.864 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dedf261)
-    (property "Reference" "H?" (at 54.864 39.37 0)
+    (property "Reference" "H1503" (at 54.864 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3mm" (at 54.864 41.275 0)
@@ -349,7 +349,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77c1ea"
-          (reference "H?") (unit 1)
+          (reference "H1503") (unit 1)
         )
       )
     )
@@ -358,7 +358,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 42.164 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dedf79c)
-    (property "Reference" "H?" (at 42.164 52.07 0)
+    (property "Reference" "H1502" (at 42.164 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3mm" (at 42.164 53.975 0)
@@ -373,7 +373,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77c1ea"
-          (reference "H?") (unit 1)
+          (reference "H1502") (unit 1)
         )
       )
     )
@@ -382,7 +382,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 54.864 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dedf7a6)
-    (property "Reference" "H?" (at 54.864 52.07 0)
+    (property "Reference" "H1504" (at 54.864 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3mm" (at 54.864 53.975 0)
@@ -397,7 +397,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77c1ea"
-          (reference "H?") (unit 1)
+          (reference "H1504") (unit 1)
         )
       )
     )
@@ -406,7 +406,7 @@
   (symbol (lib_id "Custom_Library:Screw") (at 97.79 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dee11fc)
-    (property "Reference" "MK?" (at 97.79 41.91 0)
+    (property "Reference" "MK1501" (at 97.79 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4-40" (at 97.79 39.37 0)
@@ -424,7 +424,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77c1ea"
-          (reference "MK?") (unit 1)
+          (reference "MK1501") (unit 1)
         )
       )
     )
@@ -433,7 +433,7 @@
   (symbol (lib_id "Custom_Library:Screw") (at 110.49 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dee19bc)
-    (property "Reference" "MK?" (at 110.49 41.91 0)
+    (property "Reference" "MK1503" (at 110.49 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4-40" (at 110.49 39.37 0)
@@ -451,7 +451,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77c1ea"
-          (reference "MK?") (unit 1)
+          (reference "MK1503") (unit 1)
         )
       )
     )
@@ -460,7 +460,7 @@
   (symbol (lib_id "Custom_Library:Screw") (at 97.79 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dee295e)
-    (property "Reference" "MK?" (at 97.79 54.61 0)
+    (property "Reference" "MK1502" (at 97.79 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4-40" (at 97.79 52.07 0)
@@ -478,7 +478,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77c1ea"
-          (reference "MK?") (unit 1)
+          (reference "MK1502") (unit 1)
         )
       )
     )
@@ -487,7 +487,7 @@
   (symbol (lib_id "Custom_Library:Screw") (at 110.49 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dee2968)
-    (property "Reference" "MK?" (at 110.49 54.61 0)
+    (property "Reference" "MK1504" (at 110.49 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4-40" (at 110.49 52.07 0)
@@ -505,7 +505,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77c1ea"
-          (reference "MK?") (unit 1)
+          (reference "MK1504") (unit 1)
         )
       )
     )
@@ -514,7 +514,7 @@
   (symbol (lib_id "Custom_Library:Standoff") (at 137.16 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dee48cd)
-    (property "Reference" "MK?" (at 137.16 40.64 0)
+    (property "Reference" "MK1505" (at 137.16 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4-40" (at 137.16 38.1 0)
@@ -532,7 +532,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77c1ea"
-          (reference "MK?") (unit 1)
+          (reference "MK1505") (unit 1)
         )
       )
     )
@@ -541,7 +541,7 @@
   (symbol (lib_id "Custom_Library:Standoff") (at 149.86 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dee4e7f)
-    (property "Reference" "MK?" (at 149.86 40.64 0)
+    (property "Reference" "MK1507" (at 149.86 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4-40" (at 149.86 38.1 0)
@@ -559,7 +559,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77c1ea"
-          (reference "MK?") (unit 1)
+          (reference "MK1507") (unit 1)
         )
       )
     )
@@ -568,7 +568,7 @@
   (symbol (lib_id "Custom_Library:Standoff") (at 137.16 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dee5c4d)
-    (property "Reference" "MK?" (at 137.16 53.34 0)
+    (property "Reference" "MK1506" (at 137.16 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4-40" (at 137.16 50.8 0)
@@ -586,7 +586,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77c1ea"
-          (reference "MK?") (unit 1)
+          (reference "MK1506") (unit 1)
         )
       )
     )
@@ -595,7 +595,7 @@
   (symbol (lib_id "Custom_Library:Standoff") (at 149.86 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005dee5c57)
-    (property "Reference" "MK?" (at 149.86 53.34 0)
+    (property "Reference" "MK1508" (at 149.86 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4-40" (at 149.86 50.8 0)
@@ -613,7 +613,7 @@
     (instances
       (project "Stopwatch"
         (path "/c0d2575b-aec2-49ed-8c32-97fe6e68824c/00000000-0000-0000-0000-00005d77c1ea"
-          (reference "MK?") (unit 1)
+          (reference "MK1508") (unit 1)
         )
       )
     )
