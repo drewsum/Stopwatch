@@ -289,52 +289,6 @@
         )
       )
     )
-    (symbol "Incrementor-rescue:+3.3V-power" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V-power" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V-power_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3V-power_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Sensor_Touch:AT42QT1010-TSHR" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -2.54 8.255 0)
         (effects (font (size 1.27 1.27)) (justify right))
@@ -387,6 +341,58 @@
         (pin input line (at -10.16 2.54 0) (length 2.54)
           (name "SYNC" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3.3V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3.3V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3.3V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3.3V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1016,7 +1022,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 194.31 40.64 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 194.31 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d741a4f)
     (property "Reference" "#PWR0639" (at 194.31 44.45 0)
@@ -1104,7 +1110,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 194.31 17.78 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 194.31 17.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d7436ce)
     (property "Reference" "#PWR0637" (at 194.31 21.59 0)
@@ -1417,7 +1423,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 156.21 44.45 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 156.21 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ded1e34)
     (property "Reference" "#PWR0622" (at 156.21 48.26 0)
@@ -1655,7 +1661,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 157.48 26.67 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 157.48 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005deec92c)
     (property "Reference" "#PWR0628" (at 157.48 30.48 0)
@@ -2083,7 +2089,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 156.21 97.79 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 156.21 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005df39a04)
     (property "Reference" "#PWR0624" (at 156.21 101.6 0)
@@ -2177,7 +2183,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 157.48 80.01 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 157.48 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005df39a21)
     (property "Reference" "#PWR0630" (at 157.48 83.82 0)
@@ -2315,7 +2321,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 114.3 76.2 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 114.3 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 064faef2-c963-45bf-b3e4-c3b030fa248d)
     (property "Reference" "#PWR0612" (at 114.3 80.01 0)
@@ -2378,7 +2384,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 157.48 133.35 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 157.48 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 180c65c9-ee8d-41c4-930d-a4bba342153f)
     (property "Reference" "#PWR0632" (at 157.48 137.16 0)
@@ -2435,7 +2441,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 194.31 147.32 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 194.31 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a67592f-e2b5-43c1-879d-66d7adf55f4b)
     (property "Reference" "#PWR0643" (at 194.31 151.13 0)
@@ -2460,7 +2466,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 194.31 124.46 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 194.31 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30fceecb-f7d1-400d-98c6-7215f2e9eb3f)
     (property "Reference" "#PWR0641" (at 194.31 128.27 0)
@@ -2485,7 +2491,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 109.22 95.25 270) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 109.22 95.25 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32eeed35-67e5-49b8-87cc-095ecc1e1a6c)
     (property "Reference" "#PWR0608" (at 105.41 95.25 0)
@@ -2541,7 +2547,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 99.06 36.83 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 99.06 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4fcf38ea-5f39-403f-87f7-ccc0e1d961db)
     (property "Reference" "#PWR0601" (at 99.06 40.64 0)
@@ -2566,7 +2572,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 99.06 90.17 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 99.06 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a2dbda9-e435-475e-b615-b78e5d846dd3)
     (property "Reference" "#PWR0603" (at 99.06 93.98 0)
@@ -2745,7 +2751,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 114.3 129.54 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 114.3 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65c6d2af-f47d-456a-9ae1-5b87c5c68e1b)
     (property "Reference" "#PWR0614" (at 114.3 133.35 0)
@@ -2826,7 +2832,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 109.22 148.59 270) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 109.22 148.59 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7884d7fc-0c7b-4b90-8941-ab1f04b729ca)
     (property "Reference" "#PWR0609" (at 105.41 148.59 0)
@@ -2895,7 +2901,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 156.21 151.13 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 156.21 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85a3b3bf-a3dc-4c43-a67c-cf61f3a2c938)
     (property "Reference" "#PWR0626" (at 156.21 154.94 0)
@@ -3231,7 +3237,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 109.22 41.91 270) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 109.22 41.91 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2d7e421-a787-4bea-bb05-d1b1bacf56bb)
     (property "Reference" "#PWR0607" (at 105.41 41.91 0)
@@ -3375,7 +3381,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 99.06 143.51 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 99.06 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8c19e54-4389-4e6b-ba56-cfa9882011e8)
     (property "Reference" "#PWR0605" (at 99.06 147.32 0)
@@ -3400,7 +3406,7 @@
     )
   )
 
-  (symbol (lib_id "Incrementor-rescue:+3.3V-power") (at 114.3 22.86 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 114.3 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cde96c85-84c2-4ca2-9a68-60ec93368cda)
     (property "Reference" "#PWR0610" (at 114.3 26.67 0)
