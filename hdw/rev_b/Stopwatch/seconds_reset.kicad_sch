@@ -2331,7 +2331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 205.74 39.37 0)
 			(effects
 				(font
@@ -2358,7 +2358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key PN" "296-29875-1-ND"
+		(property "Digi-Key PN" "296-15582-1-ND"
 			(at 204.47 39.37 0)
 			(effects
 				(font
@@ -3491,7 +3491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 154.94 39.37 0)
 			(effects
 				(font
@@ -3518,7 +3518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key PN" "296-29875-1-ND"
+		(property "Digi-Key PN" "296-15582-1-ND"
 			(at 153.67 39.37 0)
 			(effects
 				(font
@@ -3986,7 +3986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 52.07 82.55 0)
 			(effects
 				(font
@@ -4013,7 +4013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key PN" "296-29875-1-ND"
+		(property "Digi-Key PN" "296-15582-1-ND"
 			(at 50.8 82.55 0)
 			(effects
 				(font
@@ -4766,7 +4766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 52.07 125.73 0)
 			(effects
 				(font
@@ -4793,7 +4793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key PN" "296-29875-1-ND"
+		(property "Digi-Key PN" "296-15582-1-ND"
 			(at 50.8 125.73 0)
 			(effects
 				(font
@@ -4856,7 +4856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 52.07 39.37 0)
 			(effects
 				(font
@@ -4883,7 +4883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key PN" "296-29875-1-ND"
+		(property "Digi-Key PN" "296-15582-1-ND"
 			(at 50.8 39.37 0)
 			(effects
 				(font
@@ -5951,7 +5951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 102.87 39.37 0)
 			(effects
 				(font
@@ -5978,7 +5978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key PN" "296-29875-1-ND"
+		(property "Digi-Key PN" "296-15582-1-ND"
 			(at 101.6 39.37 0)
 			(effects
 				(font
@@ -6041,7 +6041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 102.87 125.73 0)
 			(effects
 				(font
@@ -6068,7 +6068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key PN" "296-29875-1-ND"
+		(property "Digi-Key PN" "296-15582-1-ND"
 			(at 101.6 125.73 0)
 			(effects
 				(font

@@ -4691,7 +4691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 119.38 158.75 0)
 			(effects
 				(font
@@ -4718,7 +4718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key PN" "296-29875-1-ND"
+		(property "Digi-Key PN" "296-15582-1-ND"
 			(at 118.11 158.75 0)
 			(effects
 				(font

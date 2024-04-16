@@ -3889,7 +3889,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005bc52dc5")
 		(property "Reference" "D201"
 			(at 71.8566 61.0616 90)

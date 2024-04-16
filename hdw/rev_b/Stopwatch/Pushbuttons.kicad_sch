@@ -2557,7 +2557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_X2SON-5_0.8x0.8mm_P0.48mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 194.31 44.45 0)
 			(effects
 				(font
@@ -2584,7 +2584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key PN" "1727-74LVC1G80GX,125CT-ND"
+		(property "Digi-Key PN" "296-41824-1-ND"
 			(at 194.31 44.45 0)
 			(effects
 				(font
@@ -6139,7 +6139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_X2SON-5_0.8x0.8mm_P0.48mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 194.31 151.13 0)
 			(effects
 				(font
@@ -6166,7 +6166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key PN" "1727-74LVC1G80GX,125CT-ND"
+		(property "Digi-Key PN" "296-41824-1-ND"
 			(at 194.31 151.13 0)
 			(effects
 				(font
@@ -6723,7 +6723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 157.48 153.67 0)
 			(effects
 				(font
@@ -6750,7 +6750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key PN" "296-29875-1-ND"
+		(property "Digi-Key PN" "296-15582-1-ND"
 			(at 156.21 153.67 0)
 			(effects
 				(font
@@ -6813,7 +6813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -6840,7 +6840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key PN" "296-29875-1-ND"
+		(property "Digi-Key PN" "296-15582-1-ND"
 			(at 156.21 46.99 0)
 			(effects
 				(font
@@ -7697,7 +7697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Fairchild_MicroPak2-6_1.0x1.0mm_P0.35mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 157.48 100.33 0)
 			(effects
 				(font
@@ -7724,7 +7724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key PN" "296-29875-1-ND"
+		(property "Digi-Key PN" "296-15582-1-ND"
 			(at 156.21 100.33 0)
 			(effects
 				(font
